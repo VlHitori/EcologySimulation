@@ -18,8 +18,8 @@
    Откройте терминал и выполните следующую команду:
   
    ```bash
-   git clone git@github.com:VlHitori/Simulation.git
-   cd Simulation 
+   git clone https://github.com/VlHitori/EcologySimulation.git
+   cd EcologySimulation 
    ```
 ## Запуск
 **Используйте скрипт** 

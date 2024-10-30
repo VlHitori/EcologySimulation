@@ -1,7 +1,7 @@
 package com.cabachok.service;
 
 import com.cabachok.entity.Ecosystem;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.ConsoleUserInterface;
 
 public class AppManager {
     private Ecosystem ecosystem;
@@ -9,7 +9,7 @@ public class AppManager {
     public void start() {
 
         while (true) {
-            int choice = UserInterfaceService.showMainMenu_getChoice();
+            int choice = ConsoleUserInterface.showMainMenu_getChoice();
 
             switch (choice) {
                 case 1:
@@ -17,11 +17,11 @@ public class AppManager {
                     ecosystem = ecosystemManager.manageEcosystem(ecosystem);
                     break;
                 case 2:
-                    UserInterfaceService.displayEcosystemDetails(ecosystem);
+                    ConsoleUserInterface.displayEcosystemDetails(ecosystem);
                     break;
                 case 3:
                     if (ecosystem == null) {
-                        UserInterfaceService.displayNoEcosystemSelectedMessage();
+                        ConsoleUserInterface.displayNoEcosystemSelectedMessage();
                         break;
                     }
                     SimulationRunner simulationRunner = new SimulationRunner();

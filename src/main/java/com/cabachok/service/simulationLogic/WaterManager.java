@@ -1,6 +1,6 @@
 package com.cabachok.service.simulationLogic;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.EnvironmentCondition;
 import com.cabachok.entity.Organism;
@@ -28,16 +28,18 @@ public class WaterManager {
         );
 
         Map<String, Integer> consumptionMap = new HashMap<>();
-        consumptionMap.put(Configuration.WATER, waterConsumed);
+        consumptionMap.put(AppConfig.WATER, waterConsumed);
 
         return consumptionMap;
     }
 
-    private int updateGrowthDecayFactors(List<Organism> organisms,
-                                         int availableWater,
-                                         int totalWaterRequired,
-                                         double resourceAvailabilityFactor,
-                                         double waterInfluenceFactor) {
+    private int updateGrowthDecayFactors(
+            List<Organism> organisms,
+            int availableWater,
+            int totalWaterRequired,
+            double resourceAvailabilityFactor,
+            double waterInfluenceFactor
+    ) {
 
         double adjustedWaterAvailability = availableWater / resourceAvailabilityFactor;
 
@@ -63,5 +65,4 @@ public class WaterManager {
 
         return (int) adjustedWaterAvailability;
     }
-
 }

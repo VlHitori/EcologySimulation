@@ -1,12 +1,12 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.EnvironmentCondition;
 import com.cabachok.entity.Organism;
 import com.cabachok.utils.CustomLogger;
 import com.cabachok.utils.GrowthFactoryCalculator;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.ConsoleUserInterface;
 import lombok.NoArgsConstructor;
 
 import java.io.BufferedReader;
@@ -40,15 +40,15 @@ public class SimulationRunner {
     public void run(Ecosystem ecosystem) {
         EcosystemModifier ecosystemModifier = new EcosystemModifier();
         Simulation simulation = new Simulation();
-        UserInterfaceService.showSimulationRunnerMenu();
+        ConsoleUserInterface.showSimulationRunnerMenu();
 
         while (true) {
-            String userInput = UserInterfaceService.getString("\nYour choice: ").toLowerCase();
+            String userInput = ConsoleUserInterface.getString("\nYour choice: ").toLowerCase();
 
             switch (userInput) {
                 case "step":
                     simulation.makeStep(ecosystem);
-                    UserInterfaceService.showShortEcosystemData(ecosystem);
+                    ConsoleUserInterface.showShortEcosystemData(ecosystem);
                     break;
                 case "startauto":
                     startAutomaticSimulation(ecosystem, simulation);
@@ -57,14 +57,14 @@ public class SimulationRunner {
                     ecosystemModifier.editEnvironmentConditions(ecosystem);
                     break;
                 case "info":
-                    UserInterfaceService.displayEcosystemDetails(ecosystem);
+                    ConsoleUserInterface.displayEcosystemDetails(ecosystem);
                     break;
                 case "predict":
                     predictPopulationChange(ecosystem);
                     break;
                 case "exit":
                     System.out.println("Exiting simulation...");
-                    UserInterfaceService.displayEcosystemDetails(ecosystem);
+                    ConsoleUserInterface.displayEcosystemDetails(ecosystem);
                     System.out.println("\nSimulation completed.");
                     EcosystemCatalog catalog = new EcosystemCatalog();
                     catalog.saveEcosystem(ecosystem);
@@ -76,7 +76,7 @@ public class SimulationRunner {
     }
 
     private void startAutomaticSimulation(Ecosystem ecosystem, Simulation simulation) {
-        String logFileName = Configuration.LOG_PATH + "/" + ecosystem.getName() + "Log.txt";
+        String logFileName = AppConfig.LOG_PATH + "/" + ecosystem.getName() + "Log.txt";
 
         System.out.println("Starting automatic simulation... Press Enter to stop.");
         CustomLogger.logToFile(logFileName, "Starting automatic simulation with ecosystem details: \n" + ecosystem);
@@ -86,7 +86,7 @@ public class SimulationRunner {
             while (!Thread.currentThread().isInterrupted()) {
                 simulation.makeStep(ecosystem);
                 CustomLogger.logToFile(logFileName, "Ecosystem current state:\n" + ecosystem.compactView());
-                UserInterfaceService.showShortEcosystemData(ecosystem);
+                ConsoleUserInterface.showShortEcosystemData(ecosystem);
 
                 try {
                     Thread.sleep(2000);
@@ -123,10 +123,10 @@ public class SimulationRunner {
 
             EnvironmentCondition conditions = ecosystem.getEnvironmentCondition();
 
-            double waterImpact = calculateResourceImpact(organism.getWaterRequirements(), conditions.getWaterAvailability(), Configuration.WATER_INFLUENCE_FACTOR);
-            double foodImpact = calculateResourceImpact(organism.getFoodRequirements(), calculateTotalFoodAvailable(ecosystem), Configuration.FOOD_INFLUENCE_FACTOR);
-            double temperatureImpact = GrowthFactoryCalculator.calculateTemperatureImpact(Math.abs(conditions.getTemperature() - organism.getOptimalTemperature()), Configuration.TEMPERATURE_INFLUENCE_FACTOR);
-            double humidityImpact = GrowthFactoryCalculator.calculateHumidityImpact(Math.abs(conditions.getHumidity() - organism.getOptimalHumidity()), Configuration.HUMIDITY_INFLUENCE_FACTOR);
+            double waterImpact = calculateResourceImpact(organism.getWaterRequirements(), conditions.getWaterAvailability(), AppConfig.WATER_INFLUENCE_FACTOR);
+            double foodImpact = calculateResourceImpact(organism.getFoodRequirements(), calculateTotalFoodAvailable(ecosystem), AppConfig.FOOD_INFLUENCE_FACTOR);
+            double temperatureImpact = GrowthFactoryCalculator.calculateTemperatureImpact(Math.abs(conditions.getTemperature() - organism.getOptimalTemperature()), AppConfig.TEMPERATURE_INFLUENCE_FACTOR);
+            double humidityImpact = GrowthFactoryCalculator.calculateHumidityImpact(Math.abs(conditions.getHumidity() - organism.getOptimalHumidity()), AppConfig.HUMIDITY_INFLUENCE_FACTOR);
 
             double totalImpact = waterImpact * foodImpact * temperatureImpact * humidityImpact;
 

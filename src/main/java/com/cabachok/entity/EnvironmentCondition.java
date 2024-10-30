@@ -24,8 +24,6 @@ public class EnvironmentCondition {
         this.organicMatterAccumulation = 0;
     }
 
-
-
     public void updateWaterAvailability(int waterAvailability) {
         this.waterAvailability = waterAvailability;
     }

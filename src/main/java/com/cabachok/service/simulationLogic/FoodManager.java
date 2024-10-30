@@ -1,6 +1,6 @@
 package com.cabachok.service.simulationLogic;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.EnvironmentCondition;
 import com.cabachok.entity.Organism;
@@ -24,28 +24,28 @@ public class FoodManager {
         int availablePlants = (int) (
                 GrowthFactoryCalculator.calculateTotalByType(
                         organisms,
-                        Configuration.PLANT,
+                        AppConfig.PLANT,
                         Organism::getPopulation
-                ) * Configuration.ENERGY_TRANSFER_RATE
+                ) * AppConfig.ENERGY_TRANSFER_RATE
         );
 
         int availableHerbivores = (int) (
                 GrowthFactoryCalculator.calculateTotalByType(
                         organisms,
-                        Configuration.HERBIVORE,
+                        AppConfig.HERBIVORE,
                         Organism::getPopulation
-                ) * Configuration.ENERGY_TRANSFER_RATE
+                ) * AppConfig.ENERGY_TRANSFER_RATE
         );
 
-        int totalSoilRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, Configuration.PLANT, Organism::getTotalFoodRequirement);
-        int totalPlantsRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, Configuration.HERBIVORE, Organism::getTotalFoodRequirement);
-        int totalHerbivoreRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, Configuration.CARNIVORE, Organism::getTotalFoodRequirement);
+        int totalSoilRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, AppConfig.PLANT, Organism::getTotalFoodRequirement);
+        int totalPlantsRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, AppConfig.HERBIVORE, Organism::getTotalFoodRequirement);
+        int totalHerbivoreRequired = GrowthFactoryCalculator.calculateTotalByType(organisms, AppConfig.CARNIVORE, Organism::getTotalFoodRequirement);
 
         Map<String, Integer> consumptionMap = new HashMap<>();
 
         int soilConsumed = updateGrowthDecayFactors(
                 organisms,
-                Configuration.PLANT,
+                AppConfig.PLANT,
                 soilFertility,
                 totalSoilRequired,
                 resourceAvailabilityFactor,
@@ -54,7 +54,7 @@ public class FoodManager {
 
         int plantsConsumed = updateGrowthDecayFactors(
                 organisms,
-                Configuration.HERBIVORE,
+                AppConfig.HERBIVORE,
                 availablePlants,
                 totalPlantsRequired,
                 resourceAvailabilityFactor,
@@ -63,16 +63,16 @@ public class FoodManager {
 
         int herbivoresConsumed = updateGrowthDecayFactors(
                 organisms,
-                Configuration.CARNIVORE,
+                AppConfig.CARNIVORE,
                 availableHerbivores,
                 totalHerbivoreRequired,
                 resourceAvailabilityFactor,
                 foodInfluenceFactor
         );
 
-        consumptionMap.put(Configuration.SOIL, soilConsumed);
-        consumptionMap.put(Configuration.PLANT, plantsConsumed);
-        consumptionMap.put(Configuration.HERBIVORE, herbivoresConsumed);
+        consumptionMap.put(AppConfig.SOIL, soilConsumed);
+        consumptionMap.put(AppConfig.PLANT, plantsConsumed);
+        consumptionMap.put(AppConfig.HERBIVORE, herbivoresConsumed);
 
         return consumptionMap;
     }

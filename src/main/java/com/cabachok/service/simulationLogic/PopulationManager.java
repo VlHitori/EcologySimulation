@@ -1,6 +1,6 @@
 package com.cabachok.service.simulationLogic;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.Organism;
 
@@ -20,7 +20,7 @@ public class PopulationManager {
         Map<String, List<Organism>> organismsByType = groupOrganismsByType(organisms);
 
         organismsByType.forEach((type, sameTypeOrganisms) -> {
-            if (!type.equals(Configuration.CARNIVORE)) {
+            if (!type.equals(AppConfig.CARNIVORE)) {
                 int consumedAmount = consumedResources.getOrDefault(type, 0);
                 if (consumedAmount > 0) {
                     distributeConsumption(sameTypeOrganisms, consumedAmount);
@@ -28,13 +28,13 @@ public class PopulationManager {
             }
         });
 
-        int waterConsumed = consumedResources.getOrDefault(Configuration.WATER, 0);
+        int waterConsumed = consumedResources.getOrDefault(AppConfig.WATER, 0);
         if (waterConsumed > 0) {
             int currentWaterAvailability = ecosystem.getEnvironmentCondition().getWaterAvailability();
             ecosystem.getEnvironmentCondition().updateWaterAvailability(currentWaterAvailability - waterConsumed);
         }
 
-        int soilConsumed = consumedResources.getOrDefault(Configuration.SOIL, 0);
+        int soilConsumed = consumedResources.getOrDefault(AppConfig.SOIL, 0);
         if (soilConsumed > 0) {
             int currentSoilFertility = ecosystem.getEnvironmentCondition().getFertileSoilAmount();
             ecosystem.getEnvironmentCondition().updateFertileSoilAmount(currentSoilFertility - soilConsumed);

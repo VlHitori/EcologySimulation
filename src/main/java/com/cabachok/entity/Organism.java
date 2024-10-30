@@ -1,6 +1,6 @@
 package com.cabachok.entity;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,6 @@ public abstract class Organism {
     private int waterRequirements;
     private double optimalHumidity;
     private double optimalTemperature;
-    @Setter
     private double growthDecayFactor;
 
     public abstract String getType();
@@ -25,7 +24,7 @@ public abstract class Organism {
             growthDecayFactor = 1.4;
         }
         population = (int) (population * growthDecayFactor);
-        growthDecayFactor = Configuration.START_GROWTH_DECAY_FACTOR;
+        growthDecayFactor = AppConfig.START_GROWTH_DECAY_FACTOR;
     }
 
     public void decreasePopulation(int deadCount) {

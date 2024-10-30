@@ -1,6 +1,6 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.EnvironmentCondition;
 import com.cabachok.entity.Herbivore;
@@ -8,7 +8,7 @@ import com.cabachok.entity.Organism;
 import com.cabachok.entity.Carnivore;
 import com.cabachok.entity.Plant;
 import com.cabachok.factory.OrganismFactory;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.ConsoleUserInterface;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,7 +18,7 @@ import java.util.Set;
 public class EcosystemCreator {
     public Ecosystem createNewEcosystem() {
 
-        String ecosystemName = UserInterfaceService.getString(
+        String ecosystemName = ConsoleUserInterface.getString(
                 """
                         
                         Creating a new Ecosystem
@@ -36,11 +36,11 @@ public class EcosystemCreator {
     }
 
     private EnvironmentCondition getEnvironmentConditionFromUser() {
-        double temperature = UserInterfaceService.getValidDoubleInput("Enter ecosystem temperature (-90 to 60): ", Configuration.MIN_TEMPERATURE, Configuration.MAX_TEMPERATURE);
-        double humidity = UserInterfaceService.getValidDoubleInput("Enter ecosystem humidity( 0% to 100%): ", 0, 100);
-        int waterAvailability = UserInterfaceService.getValidIntInput("Enter ecosystem water availability: ");
-        int fertileSoilAmount = UserInterfaceService.getValidIntInput("Enter ecosystem fertile soil amount: ");
-        int dailyPrecipitation = UserInterfaceService.getValidIntInput("Enter ecosystem daily precipitation: ");
+        double temperature = ConsoleUserInterface.getValidDoubleInput("Enter ecosystem temperature (-90 to 60): ", AppConfig.MIN_TEMPERATURE, AppConfig.MAX_TEMPERATURE);
+        double humidity = ConsoleUserInterface.getValidDoubleInput("Enter ecosystem humidity( 0% to 100%): ", 0, 100);
+        int waterAvailability = ConsoleUserInterface.getValidIntInput("Enter ecosystem water availability: ");
+        int fertileSoilAmount = ConsoleUserInterface.getValidIntInput("Enter ecosystem fertile soil amount: ");
+        int dailyPrecipitation = ConsoleUserInterface.getValidIntInput("Enter ecosystem daily precipitation: ");
 
         return new EnvironmentCondition(temperature, humidity, waterAvailability, fertileSoilAmount, dailyPrecipitation);
     }
@@ -68,7 +68,7 @@ public class EcosystemCreator {
     }
 
     public Organism getOrganismDetails(Set<String> existingNames) {
-        String name = UserInterfaceService.getUniqOrganismName(existingNames);
+        String name = ConsoleUserInterface.getUniqOrganismName(existingNames);
 
         if (name == null) {
             return null;
@@ -76,12 +76,12 @@ public class EcosystemCreator {
 
         existingNames.add(name);
 
-        String type = UserInterfaceService.getOrganismType();
-        int population = UserInterfaceService.getValidIntInput("Enter population: ");
-        int foodRequirements = UserInterfaceService.getValidIntInputForResources("Enter food requirements (0 to 5): ");
-        int waterRequirements = UserInterfaceService.getValidIntInputForResources("Enter water requirements (0 to 5): ");
-        double optimalHumidity = UserInterfaceService.getValidDoubleInput("Enter optimal humidity ( 0% to 100%): ", 0, 100);
-        double optimalTemperature = UserInterfaceService.getValidDoubleInput("Enter optimal temperature (-90 to 60): ", Configuration.MIN_TEMPERATURE, Configuration.MAX_TEMPERATURE);
+        String type = ConsoleUserInterface.getOrganismType();
+        int population = ConsoleUserInterface.getValidIntInput("Enter population: ");
+        int foodRequirements = ConsoleUserInterface.getValidIntInputForResources("Enter food requirements (0 to 5): ");
+        int waterRequirements = ConsoleUserInterface.getValidIntInputForResources("Enter water requirements (0 to 5): ");
+        double optimalHumidity = ConsoleUserInterface.getValidDoubleInput("Enter optimal humidity ( 0% to 100%): ", 0, 100);
+        double optimalTemperature = ConsoleUserInterface.getValidDoubleInput("Enter optimal temperature (-90 to 60): ", AppConfig.MIN_TEMPERATURE, AppConfig.MAX_TEMPERATURE);
 
         return OrganismFactory.builder()
                 .name(name)
@@ -96,18 +96,18 @@ public class EcosystemCreator {
     }
 
     private boolean hasAllOrganismTypes(Set<String> organismTypes) {
-        return organismTypes.contains(Configuration.HERBIVORE) &&
-                organismTypes.contains(Configuration.CARNIVORE) &&
-                organismTypes.contains(Configuration.PLANT);
+        return organismTypes.contains(AppConfig.HERBIVORE) &&
+                organismTypes.contains(AppConfig.CARNIVORE) &&
+                organismTypes.contains(AppConfig.PLANT);
     }
 
     private String getInstanceType(Organism organism) {
         if (organism instanceof Herbivore) {
-            return Configuration.HERBIVORE;
+            return AppConfig.HERBIVORE;
         } else if (organism instanceof Carnivore) {
-            return Configuration.CARNIVORE;
+            return AppConfig.CARNIVORE;
         } else if (organism instanceof Plant) {
-            return Configuration.PLANT;
+            return AppConfig.PLANT;
         }
 
         return null;

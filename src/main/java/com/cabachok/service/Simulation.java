@@ -1,6 +1,6 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.service.simulationLogic.*;
 
@@ -24,18 +24,18 @@ public class Simulation {
     public void makeStep(Ecosystem ecosystem) {
 
         Map<String, Integer> consumedResources = foodManager.measureFoodImpact(
-                ecosystem, Configuration.RESOURCE_AVAILABILITY_FACTOR, Configuration.FOOD_INFLUENCE_FACTOR
+                ecosystem, AppConfig.RESOURCE_AVAILABILITY_FACTOR, AppConfig.FOOD_INFLUENCE_FACTOR
         );
         Map<String, Integer> waterConsumption = waterManager.measureWaterImpact(
-                ecosystem, Configuration.RESOURCE_AVAILABILITY_FACTOR, Configuration.WATER_INFLUENCE_FACTOR
+                ecosystem, AppConfig.RESOURCE_AVAILABILITY_FACTOR, AppConfig.WATER_INFLUENCE_FACTOR
         );
         consumedResources.putAll(waterConsumption);
 
-        conditionManager.measureConditionImpact(ecosystem, Configuration.TEMPERATURE_INFLUENCE_FACTOR, Configuration.HUMIDITY_INFLUENCE_FACTOR);
+        conditionManager.measureConditionImpact(ecosystem, AppConfig.TEMPERATURE_INFLUENCE_FACTOR, AppConfig.HUMIDITY_INFLUENCE_FACTOR);
 
         int consumedSoil = consumedResources.getOrDefault("soil", 0);
 
-        naturalEvents.applyNaturalEvents(ecosystem, Configuration.RAIN_FREQUENCY, Configuration.ORGANIC_MATTER_TRANSFER_RATE, consumedSoil);
+        naturalEvents.applyNaturalEvents(ecosystem, AppConfig.RAIN_FREQUENCY, AppConfig.ORGANIC_MATTER_TRANSFER_RATE, consumedSoil);
 
         populationManager.updateEcosystem(ecosystem, consumedResources);
     }

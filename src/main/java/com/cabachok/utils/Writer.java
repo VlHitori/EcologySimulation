@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public final class TxtFileWriter {
+public final class Writer {
     public static void write(String filePath, List<String> lines) {
         try {
             Files.write(Paths.get(filePath), lines, StandardCharsets.UTF_8);

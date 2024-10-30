@@ -31,5 +31,4 @@ public class ConditionManager {
             organism.setGrowthDecayFactor(organism.getGrowthDecayFactor() * humidityImpact * temperatureImpact);
         }
     }
-
 }

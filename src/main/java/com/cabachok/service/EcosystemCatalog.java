@@ -1,11 +1,11 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.utils.EcosystemDataParser;
-import com.cabachok.utils.TxtFileReader;
-import com.cabachok.utils.TxtFileWriter;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.Reader;
+import com.cabachok.utils.Writer;
+import com.cabachok.utils.ConsoleUserInterface;
 
 import java.io.File;
 import java.util.Arrays;
@@ -14,18 +14,18 @@ import java.util.stream.Collectors;
 
 public class EcosystemCatalog {
     public Ecosystem chooseExistingEcosystem() {
-        List<String> ecosystemNames = getEcosystemNames(Configuration.ECOSYSTEMS_PATH);
+        List<String> ecosystemNames = getEcosystemNames(AppConfig.ECOSYSTEMS_PATH);
 
         if (ecosystemNames.isEmpty()) {
             System.out.println("There are no Ecosystems in the directory.");
             return null;
         }
 
-        UserInterfaceService.displayAvailableEcosystems(getEcosystemNames(Configuration.ECOSYSTEMS_PATH));
+        ConsoleUserInterface.displayAvailableEcosystems(getEcosystemNames(AppConfig.ECOSYSTEMS_PATH));
 
         while (true) {
             System.out.println("\nPlease enter the number of the ecosystem you want to select(0 to quit): ");
-            int choice = UserInterfaceService.getUserChoice();
+            int choice = ConsoleUserInterface.getUserChoice();
 
             if (choice == 0) {
                 return null;
@@ -45,18 +45,18 @@ public class EcosystemCatalog {
     }
 
     public String chooseEcosystemToDelete() {
-        List<String> ecosystemNames = getEcosystemNames(Configuration.ECOSYSTEMS_PATH);
+        List<String> ecosystemNames = getEcosystemNames(AppConfig.ECOSYSTEMS_PATH);
 
         if (ecosystemNames.isEmpty()) {
             System.out.println("No ecosystems in the directory.");
             return null;
         }
 
-        UserInterfaceService.displayAvailableEcosystems(getEcosystemNames(Configuration.ECOSYSTEMS_PATH));
+        ConsoleUserInterface.displayAvailableEcosystems(getEcosystemNames(AppConfig.ECOSYSTEMS_PATH));
 
         while (true) {
             System.out.println("Enter the number of the ecosystem to delete (or 0 to quit): ");
-            int choice = UserInterfaceService.getUserChoice();
+            int choice = ConsoleUserInterface.getUserChoice();
 
             if (choice >= 1 && choice <= ecosystemNames.size()) {
                 return ecosystemNames.get(choice - 1);
@@ -77,7 +77,7 @@ public class EcosystemCatalog {
             return;
         }
 
-        File file = new File(Configuration.ECOSYSTEMS_PATH, ecosystemName + ".txt");
+        File file = new File(AppConfig.ECOSYSTEMS_PATH, ecosystemName + ".txt");
 
         if (!file.exists()) {
             System.out.println("Ecosystem " + ecosystemName + " does not exist.");
@@ -113,7 +113,7 @@ public class EcosystemCatalog {
 
     public Ecosystem loadEcosystem(String ecosystemName) {
         String fileName = ecosystemName + ".txt";
-        File file = new File(Configuration.ECOSYSTEMS_PATH, fileName);
+        File file = new File(AppConfig.ECOSYSTEMS_PATH, fileName);
 
         if (!file.exists() || !file.isFile()) {
             throw new IllegalArgumentException("Ecosystem " + ecosystemName + " does not exist or is not a file.");
@@ -124,7 +124,7 @@ public class EcosystemCatalog {
 
     private Ecosystem parseFileSafely(File file) {
         try {
-            List<String> fileContent = TxtFileReader.read(file.getAbsolutePath());
+            List<String> fileContent = Reader.read(file.getAbsolutePath());
             return EcosystemDataParser.parse(fileContent);
         } catch (Exception e) {
             System.err.println("Error reading file: " + file.getAbsolutePath());
@@ -142,10 +142,10 @@ public class EcosystemCatalog {
         }
 
         String fileName = ecosystem.getName() + ".txt";
-        String filePath = Configuration.ECOSYSTEMS_PATH + File.separator + fileName;
+        String filePath = AppConfig.ECOSYSTEMS_PATH + File.separator + fileName;
 
         List<String> lines = Arrays.asList(ecosystem.toString().split("\n"));
-        TxtFileWriter.write(filePath, lines);
+        Writer.write(filePath, lines);
 
         System.out.println("Ecosystem saved to: " + filePath);
     }

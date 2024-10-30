@@ -35,6 +35,4 @@ public class NaturalEvents {
             condition.setWaterAvailability(condition.getWaterAvailability() + precipitationAmount);
         }
     }
-
-
 }

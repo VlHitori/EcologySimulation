@@ -1,6 +1,6 @@
 package com.cabachok.utils;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.Organism;
 
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public final class UserInterfaceService {
+public final class ConsoleUserInterface {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static int getUserChoice() {
@@ -68,7 +68,7 @@ public final class UserInterfaceService {
         while (true) {
             System.out.print("Enter organism type ('Carnivore'/'Herbivore'/'Plant'): ");
             String type = scanner.nextLine().trim().toLowerCase();
-            if (type.equals(Configuration.HERBIVORE) || type.equals(Configuration.CARNIVORE) || type.equals(Configuration.PLANT)) {
+            if (type.equals(AppConfig.HERBIVORE) || type.equals(AppConfig.CARNIVORE) || type.equals(AppConfig.PLANT)) {
                 return type;
             } else {
                 System.out.println("Invalid organism type. Please enter 'Herbivore', 'Carnivore', or 'Plant'.");
@@ -97,8 +97,6 @@ public final class UserInterfaceService {
 
         return getUserChoice();
     }
-
-
 
     public static int showEcosystemSelectionMenu_getChoice() {
         System.out.println("\nEcosystem Service Menu");
@@ -183,7 +181,7 @@ public final class UserInterfaceService {
         String name;
 
         while (true) {
-            name = UserInterfaceService.getString("Enter organism name (or 'done' to finish): ");
+            name = ConsoleUserInterface.getString("Enter organism name (or 'done' to finish): ");
 
             if (name.isEmpty()) {
                 System.out.println("Name cannot be empty. Please enter a valid name.");
@@ -203,7 +201,6 @@ public final class UserInterfaceService {
 
         return name;
     }
-
 
     public static void displayOrganismForList(List<Organism> organisms) {
         if (organisms == null || organisms.isEmpty()) {
@@ -229,6 +226,4 @@ public final class UserInterfaceService {
             );
         }
     }
-
-
 }

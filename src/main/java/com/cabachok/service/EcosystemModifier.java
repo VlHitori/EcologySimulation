@@ -1,9 +1,9 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
 import com.cabachok.entity.Organism;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.ConsoleUserInterface;
 import lombok.NoArgsConstructor;
 
 import java.util.HashSet;
@@ -19,7 +19,7 @@ public class EcosystemModifier {
         }
 
         while (true) {
-            int choice = UserInterfaceService.showEditEcosystemMenu_getChoice();
+            int choice = ConsoleUserInterface.showEditEcosystemMenu_getChoice();
 
             switch (choice) {
                 case 1:
@@ -51,9 +51,9 @@ public class EcosystemModifier {
             return;
         }
 
-        UserInterfaceService.displayOrganismForList(organisms);
+        ConsoleUserInterface.displayOrganismForList(organisms);
 
-        int index = UserInterfaceService.getValidIntInput("Number of the organism to remove: ");
+        int index = ConsoleUserInterface.getValidIntInput("Number of the organism to remove: ");
 
         if (index < 1 || index > organisms.size()) {
             System.out.println("Invalid choice.");
@@ -81,24 +81,24 @@ public class EcosystemModifier {
     }
 
     public void editEnvironmentConditions(Ecosystem ecosystem) {
-        UserInterfaceService.showShortEcosystemData(ecosystem);
-        int choice = UserInterfaceService.showEcosystemModificationMenu_getChoice();
+        ConsoleUserInterface.showShortEcosystemData(ecosystem);
+        int choice = ConsoleUserInterface.showEcosystemModificationMenu_getChoice();
 
         switch (choice) {
             case 1:
-                double newTemperature = UserInterfaceService.getValidDoubleInput("Enter new temperature (-90 to 60):", Configuration.MIN_TEMPERATURE, Configuration.MAX_TEMPERATURE);
+                double newTemperature = ConsoleUserInterface.getValidDoubleInput("Enter new temperature (-90 to 60):", AppConfig.MIN_TEMPERATURE, AppConfig.MAX_TEMPERATURE);
                 ecosystem.getEnvironmentCondition().setTemperature(newTemperature);
                 break;
             case 2:
-                double newHumidity = UserInterfaceService.getValidDoubleInput("Enter new humidity (0% to 100%):", 0, 100);
+                double newHumidity = ConsoleUserInterface.getValidDoubleInput("Enter new humidity (0% to 100%):", 0, 100);
                 ecosystem.getEnvironmentCondition().setHumidity(newHumidity);
                 break;
             case 3:
-                int newWaterAvailability = UserInterfaceService.getValidIntInput("Enter new water availability:");
+                int newWaterAvailability = ConsoleUserInterface.getValidIntInput("Enter new water availability:");
                 ecosystem.getEnvironmentCondition().updateWaterAvailability(newWaterAvailability);
                 break;
             case 4:
-                int newSoilAmount = UserInterfaceService.getValidIntInput("Enter new fertile soil amount:");
+                int newSoilAmount = ConsoleUserInterface.getValidIntInput("Enter new fertile soil amount:");
                 ecosystem.getEnvironmentCondition().setFertileSoilAmount(newSoilAmount);
                 break;
             case 5:
@@ -118,9 +118,9 @@ public class EcosystemModifier {
             return;
         }
 
-        UserInterfaceService.displayOrganismForList(organisms);
+        ConsoleUserInterface.displayOrganismForList(organisms);
 
-        int index = UserInterfaceService.getValidIntInput("Number organism to edit: ");
+        int index = ConsoleUserInterface.getValidIntInput("Number organism to edit: ");
 
         if (index < 1 || index > organisms.size()) {
             System.out.println("Invalid choice.");
@@ -130,27 +130,27 @@ public class EcosystemModifier {
         Organism organism = organisms.get(index - 1);
 
         while (true) {
-            int choice = UserInterfaceService.showEditOrganismMenu_getChoice(organism.getName());
+            int choice = ConsoleUserInterface.showEditOrganismMenu_getChoice(organism.getName());
 
             switch (choice) {
                 case 1:
-                    int newPopulation = UserInterfaceService.getValidIntInput("Enter new population:");
+                    int newPopulation = ConsoleUserInterface.getValidIntInput("Enter new population:");
                     organism.setPopulation(newPopulation);
                     break;
                 case 2:
-                    int newFoodRequirements = UserInterfaceService.getValidIntInput("Enter new food requirements:");
+                    int newFoodRequirements = ConsoleUserInterface.getValidIntInput("Enter new food requirements:");
                     organism.setFoodRequirements(newFoodRequirements);
                     break;
                 case 3:
-                    int newWaterRequirements = UserInterfaceService.getValidIntInput("Enter new water requirements:");
+                    int newWaterRequirements = ConsoleUserInterface.getValidIntInput("Enter new water requirements:");
                     organism.setWaterRequirements(newWaterRequirements);
                     break;
                 case 4:
-                    double newOptimalHumidity = UserInterfaceService.getValidDoubleInput("Enter new optimal humidity (0% to 100%):", 0, 100);
+                    double newOptimalHumidity = ConsoleUserInterface.getValidDoubleInput("Enter new optimal humidity (0% to 100%):", 0, 100);
                     organism.setOptimalHumidity(newOptimalHumidity);
                     break;
                 case 5:
-                    double newOptimalTemperature = UserInterfaceService.getValidDoubleInput("Enter new optimal temperature (-90 to 60):", Configuration.MIN_TEMPERATURE, Configuration.MAX_TEMPERATURE);
+                    double newOptimalTemperature = ConsoleUserInterface.getValidDoubleInput("Enter new optimal temperature (-90 to 60):", AppConfig.MIN_TEMPERATURE, AppConfig.MAX_TEMPERATURE);
                     organism.setOptimalTemperature(newOptimalTemperature);
                     break;
                 case 6:

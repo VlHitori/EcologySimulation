@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class TxtFileReader {
+public final class Reader {
     public static List<String> read(String filePath) {
         try {
             return Files.readAllLines(Paths.get(filePath), StandardCharsets.UTF_8);

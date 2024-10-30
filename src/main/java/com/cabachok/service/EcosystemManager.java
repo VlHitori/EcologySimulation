@@ -1,8 +1,8 @@
 package com.cabachok.service;
 
-import com.cabachok.config.Configuration;
+import com.cabachok.config.AppConfig;
 import com.cabachok.entity.Ecosystem;
-import com.cabachok.utils.UserInterfaceService;
+import com.cabachok.utils.ConsoleUserInterface;
 
 
 public class EcosystemManager {
@@ -10,12 +10,12 @@ public class EcosystemManager {
         EcosystemCatalog ecosystemCatalog = new EcosystemCatalog();
         EcosystemModifier ecosystemModifier = new EcosystemModifier();
         while (true) {
-            int choice = UserInterfaceService.showEcosystemSelectionMenu_getChoice();
+            int choice = ConsoleUserInterface.showEcosystemSelectionMenu_getChoice();
 
             switch (choice) {
                 case 1:
-                    UserInterfaceService.displayAvailableEcosystems(
-                            ecosystemCatalog.getEcosystemNames(Configuration.ECOSYSTEMS_PATH)
+                    ConsoleUserInterface.displayAvailableEcosystems(
+                            ecosystemCatalog.getEcosystemNames(AppConfig.ECOSYSTEMS_PATH)
                     );
                     break;
                 case 2:
