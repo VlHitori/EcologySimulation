@@ -1,0 +1,27 @@
+Ecosystem: Ecosystem
+EnvironmentCondition:
+Temperature: 25.0
+Humidity: 50.0
+FertileSoilAmount: 9914996
+WaterAvailability: 654017
+DailyPrecipitation: 200000
+OrganicMatterAccumulation: 85004
+Organisms:
+	Organism: Carrot 'plant'
+FoodRequirements: 1
+Population: 48409
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 25.0
+	Organism: Rabbit 'herbivore'
+FoodRequirements: 2
+Population: 9442
+WaterRequirements: 1
+OptimalHumidity: 30.0
+OptimalTemperature: 20.0
+	Organism: Fox 'carnivore'
+FoodRequirements: 2
+Population: 3006
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 15.0

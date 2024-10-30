@@ -1,0 +1,4040 @@
+Oct 28, 2024 1:30:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Starting automatic simulation with ecosystem details: 
+Ecosystem: Ecosystem
+EnvironmentCondition:
+Temperature: 25.0
+Humidity: 50.0
+FertileSoilAmount: 9985000
+WaterAvailability: 4875501
+DailyPrecipitation: 200000
+OrganicMatterAccumulation: 15000
+Organisms:
+	Organism: Carrot 'plant'
+FoodRequirements: 1
+Population: 14200
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 25.0
+	Organism: Rabbit 'herbivore'
+FoodRequirements: 2
+Population: 1679
+WaterRequirements: 1
+OptimalHumidity: 30.0
+OptimalTemperature: 20.0
+	Organism: Fox 'carnivore'
+FoodRequirements: 2
+Population: 98
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 15.0
+Oct 28, 2024 1:30:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	3250334	9981300
+Organism	Population
+Carrot		16522
+Rabbit		2154
+Fox		137
+
+Oct 28, 2024 1:30:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	2605390	9977868
+Organism	Population
+Carrot		18822
+Rabbit		2741
+Fox		191
+
+Oct 28, 2024 1:30:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1736927	9974538
+Organism	Population
+Carrot		20868
+Rabbit		3455
+Fox		267
+
+Oct 28, 2024 1:30:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1569098	9971493
+Organism	Population
+Carrot		22305
+Rabbit		4303
+Fox		373
+
+Oct 28, 2024 1:30:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1046066	9969142
+Organism	Population
+Carrot		23791
+Rabbit		4562
+Fox		522
+
+Oct 28, 2024 1:30:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1103505	9966951
+Organism	Population
+Carrot		25377
+Rabbit		4601
+Fox		730
+
+Oct 28, 2024 1:30:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	735670	9964708
+Organism	Population
+Carrot		27068
+Rabbit		4401
+Fox		1021
+
+Oct 28, 2024 1:30:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	920828	9962344
+Organism	Population
+Carrot		29093
+Rabbit		4694
+Fox		1146
+
+Oct 28, 2024 1:30:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	613886	9959610
+Organism	Population
+Carrot		31342
+Rabbit		5007
+Fox		1256
+
+Oct 28, 2024 1:30:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	828052	9956541
+Organism	Population
+Carrot		33864
+Rabbit		5340
+Fox		1360
+
+Oct 28, 2024 1:30:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	552035	9953098
+Organism	Population
+Carrot		36729
+Rabbit		5695
+Fox		1462
+
+Oct 28, 2024 1:31:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	368024	9949200
+Organism	Population
+Carrot		40030
+Rabbit		6074
+Fox		1567
+
+Oct 28, 2024 1:31:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	665015	9944730
+Organism	Population
+Carrot		41071
+Rabbit		6479
+Fox		1675
+
+Oct 28, 2024 1:31:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	875017	9942348
+Organism	Population
+Carrot		44541
+Rabbit		6911
+Fox		1789
+
+Oct 28, 2024 1:31:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	583345	9938163
+Organism	Population
+Carrot		48535
+Rabbit		7372
+Fox		1910
+
+Oct 28, 2024 1:31:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	824968	9932913
+Organism	Population
+Carrot		53205
+Rabbit		7863
+Fox		2038
+
+Oct 28, 2024 1:31:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	964949	9926668
+Organism	Population
+Carrot		58761
+Rabbit		8387
+Fox		2175
+
+Oct 28, 2024 1:31:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	643300	9919239
+Organism	Population
+Carrot		65491
+Rabbit		8946
+Fox		2320
+
+Oct 28, 2024 1:31:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	861492	9910280
+Organism	Population
+Carrot		70900
+Rabbit		9542
+Fox		2475
+
+Oct 28, 2024 1:31:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	574328	9902183
+Organism	Population
+Carrot		80176
+Rabbit		10178
+Fox		2640
+
+Oct 28, 2024 1:31:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	382886	9890478
+Organism	Population
+Carrot		78484
+Rabbit		10857
+Fox		2816
+
+Oct 28, 2024 1:31:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	662416	9888659
+Organism	Population
+Carrot		66330
+Rabbit		11580
+Fox		3004
+
+Oct 28, 2024 1:31:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	853445	9900267
+Organism	Population
+Carrot		68249
+Rabbit		11183
+Fox		3204
+
+Oct 28, 2024 1:31:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	986537	9901831
+Organism	Population
+Carrot		73182
+Rabbit		11929
+Fox		3279
+
+Oct 28, 2024 1:31:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1079126	9897367
+Organism	Population
+Carrot		78596
+Rabbit		12724
+Fox		3412
+
+Oct 28, 2024 1:31:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	719418	9890614
+Organism	Population
+Carrot		84586
+Rabbit		13572
+Fox		3588
+
+Oct 28, 2024 1:31:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	479612	9882598
+Organism	Population
+Carrot		82675
+Rabbit		14476
+Fox		3796
+
+Oct 28, 2024 1:31:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	319742	9882104
+Organism	Population
+Carrot		68761
+Rabbit		13952
+Fox		4030
+
+Oct 28, 2024 1:31:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	213162	9895870
+Organism	Population
+Carrot		53520
+Rabbit		12120
+Fox		4111
+
+Oct 28, 2024 1:31:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	142108	9915241
+Organism	Population
+Carrot		40162
+Rabbit		9703
+Fox		3958
+
+Oct 28, 2024 1:31:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	94739	9934410
+Organism	Population
+Carrot		29450
+Rabbit		7251
+Fox		3613
+
+Oct 28, 2024 1:31:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	63160	9950873
+Organism	Population
+Carrot		21253
+Rabbit		5213
+Fox		3153
+
+Oct 28, 2024 1:31:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	42107	9964008
+Organism	Population
+Carrot		15158
+Rabbit		3676
+Fox		2662
+
+Oct 28, 2024 1:31:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	435015	9974044
+Organism	Population
+Carrot		10714
+Rabbit		2563
+Fox		2169
+
+Oct 28, 2024 1:31:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	290010	9981499
+Organism	Population
+Carrot		11428
+Rabbit		1986
+Fox		1759
+
+Oct 28, 2024 1:31:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	193340	9983021
+Organism	Population
+Carrot		12190
+Rabbit		1924
+Fox		1420
+
+Oct 28, 2024 1:31:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	542263	9982716
+Organism	Population
+Carrot		13218
+Rabbit		2052
+Fox		1168
+
+Oct 28, 2024 1:31:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	361509	9981596
+Organism	Population
+Carrot		14401
+Rabbit		2188
+Fox		995
+
+Oct 28, 2024 1:31:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	669741	9980077
+Organism	Population
+Carrot		15785
+Rabbit		2334
+Fox		885
+
+Oct 28, 2024 1:31:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	852050	9978238
+Organism	Population
+Carrot		17431
+Rabbit		2489
+Fox		823
+
+Oct 28, 2024 1:31:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	994804	9976040
+Organism	Population
+Carrot		19425
+Rabbit		2655
+Fox		799
+
+Oct 28, 2024 1:31:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	663203	9973387
+Organism	Population
+Carrot		21885
+Rabbit		2831
+Fox		802
+
+Oct 28, 2024 1:31:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	845434	9970131
+Organism	Population
+Carrot		24976
+Rabbit		3020
+Fox		824
+
+Oct 28, 2024 1:31:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	563623	9966063
+Organism	Population
+Carrot		28926
+Rabbit		3222
+Fox		860
+
+Oct 28, 2024 1:31:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	375749	9960892
+Organism	Population
+Carrot		34052
+Rabbit		3436
+Fox		906
+
+Oct 28, 2024 1:31:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	250500	9954215
+Organism	Population
+Carrot		40789
+Rabbit		3665
+Fox		959
+
+Oct 28, 2024 1:31:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	601010	9945475
+Organism	Population
+Carrot		40870
+Rabbit		3910
+Fox		1019
+
+Oct 28, 2024 1:31:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	813919	9942772
+Organism	Population
+Carrot		49398
+Rabbit		4171
+Fox		1084
+
+Oct 28, 2024 1:31:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	542613	9933433
+Organism	Population
+Carrot		60815
+Rabbit		4449
+Fox		1155
+
+Oct 28, 2024 1:31:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	361742	9919214
+Organism	Population
+Carrot		71224
+Rabbit		4745
+Fox		1231
+
+Oct 28, 2024 1:31:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	241162	9904540
+Organism	Population
+Carrot		71057
+Rabbit		5062
+Fox		1313
+
+Oct 28, 2024 1:31:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	160775	9900305
+Organism	Population
+Carrot		65288
+Rabbit		5399
+Fox		1400
+
+Oct 28, 2024 1:31:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	107184	9904803
+Organism	Population
+Carrot		56468
+Rabbit		5759
+Fox		1493
+
+Oct 28, 2024 1:31:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	71456	9914972
+Organism	Population
+Carrot		45751
+Rabbit		6143
+Fox		1593
+
+Oct 28, 2024 1:31:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	486655	9928740
+Organism	Population
+Carrot		33718
+Rabbit		6306
+Fox		1699
+
+Oct 28, 2024 1:31:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	762379	9944904
+Organism	Population
+Carrot		35966
+Rabbit		5803
+Fox		1783
+
+Oct 28, 2024 1:31:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	508253	9947505
+Organism	Population
+Carrot		38746
+Rabbit		6190
+Fox		1776
+
+Oct 28, 2024 1:31:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	338836	9945505
+Organism	Population
+Carrot		41864
+Rabbit		6603
+Fox		1816
+
+Oct 28, 2024 1:31:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	649756	9941787
+Organism	Population
+Carrot		40327
+Rabbit		7043
+Fox		1889
+
+Oct 28, 2024 1:31:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	433171	9942209
+Organism	Population
+Carrot		43015
+Rabbit		6800
+Fox		1986
+
+Oct 28, 2024 1:31:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	728614	9939647
+Organism	Population
+Carrot		45137
+Rabbit		7254
+Fox		2017
+
+Oct 28, 2024 1:31:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	485743	9936757
+Organism	Population
+Carrot		48683
+Rabbit		7737
+Fox		2089
+
+Oct 28, 2024 1:31:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	730784	9932344
+Organism	Population
+Carrot		50828
+Rabbit		8252
+Fox		2190
+
+Oct 28, 2024 1:31:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	487190	9928875
+Organism	Population
+Carrot		54655
+Rabbit		8802
+Fox		2313
+
+Oct 28, 2024 1:31:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	741737	9924007
+Organism	Population
+Carrot		54381
+Rabbit		9388
+Fox		2453
+
+Oct 28, 2024 1:31:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	494492	9922821
+Organism	Population
+Carrot		58006
+Rabbit		9137
+Fox		2608
+
+Oct 28, 2024 1:31:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	755309	9918840
+Organism	Population
+Carrot		57089
+Rabbit		9746
+Fox		2673
+
+Oct 28, 2024 1:31:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	909104	9918563
+Organism	Population
+Carrot		60895
+Rabbit		9559
+Fox		2784
+
+Oct 28, 2024 1:31:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	606070	9914673
+Organism	Population
+Carrot		66135
+Rabbit		10196
+Fox		2831
+
+Oct 28, 2024 1:31:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	828601	9908266
+Organism	Population
+Carrot		67448
+Rabbit		10876
+Fox		2934
+
+Oct 28, 2024 1:31:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	975477	9905031
+Organism	Population
+Carrot		72675
+Rabbit		11601
+Fox		3077
+
+Oct 28, 2024 1:31:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	650318	9898834
+Organism	Population
+Carrot		78543
+Rabbit		12374
+Fox		3251
+
+Oct 28, 2024 1:31:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	433546	9891107
+Organism	Population
+Carrot		76389
+Rabbit		13199
+Fox		3449
+
+Oct 28, 2024 1:31:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	289031	9890943
+Organism	Population
+Carrot		63069
+Rabbit		12839
+Fox		3668
+
+Oct 28, 2024 1:31:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	192688	9904213
+Organism	Population
+Carrot		48905
+Rabbit		11127
+Fox		3758
+
+Oct 28, 2024 1:31:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	540493	9922358
+Organism	Population
+Carrot		36616
+Rabbit		8867
+Fox		3623
+
+Oct 28, 2024 1:31:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	772284	9940091
+Organism	Population
+Carrot		39057
+Rabbit		6814
+Fox		3305
+
+Oct 28, 2024 1:31:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	514856	9942970
+Organism	Population
+Carrot		41660
+Rabbit		6584
+Fox		2900
+
+Oct 28, 2024 1:31:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	343238	9941231
+Organism	Population
+Carrot		45155
+Rabbit		7023
+Fox		2598
+
+Oct 28, 2024 1:31:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	228826	9937214
+Organism	Population
+Carrot		42607
+Rabbit		7491
+Fox		2435
+
+Oct 28, 2024 1:31:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	557829	9938557
+Organism	Population
+Carrot		34559
+Rabbit		7199
+Fox		2378
+
+Oct 28, 2024 1:31:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	371886	9947008
+Organism	Population
+Carrot		36863
+Rabbit		6138
+Fox		2310
+
+Oct 28, 2024 1:31:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	247924	9947239
+Organism	Population
+Carrot		38086
+Rabbit		6547
+Fox		2155
+
+Oct 28, 2024 1:31:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	575909	9946085
+Organism	Population
+Carrot		33008
+Rabbit		6391
+Fox		2096
+
+Oct 28, 2024 1:31:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	798229	9950817
+Organism	Population
+Carrot		35209
+Rabbit		5739
+Fox		2041
+
+Oct 28, 2024 1:31:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	949035	9950036
+Organism	Population
+Carrot		37814
+Rabbit		6121
+Fox		1936
+
+Oct 28, 2024 1:31:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	632690	9947196
+Organism	Population
+Carrot		40697
+Rabbit		6529
+Fox		1909
+
+Oct 28, 2024 1:31:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	421794	9943461
+Organism	Population
+Carrot		43917
+Rabbit		6964
+Fox		1938
+
+Oct 28, 2024 1:31:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	701059	9939121
+Organism	Population
+Carrot		45224
+Rabbit		7428
+Fox		2006
+
+Oct 28, 2024 1:31:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	888603	9936512
+Organism	Population
+Carrot		48457
+Rabbit		7923
+Fox		2103
+
+Oct 28, 2024 1:31:16 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	592402	9932496
+Organism	Population
+Carrot		51993
+Rabbit		8451
+Fox		2221
+
+Oct 28, 2024 1:31:16 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	811881	9927755
+Organism	Population
+Carrot		55888
+Rabbit		9014
+Fox		2356
+
+Oct 28, 2024 1:31:16 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	541254	9922438
+Organism	Population
+Carrot		60215
+Rabbit		9615
+Fox		2505
+
+Oct 28, 2024 1:31:16 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	784627	9916516
+Organism	Population
+Carrot		60280
+Rabbit		10256
+Fox		2667
+
+Oct 28, 2024 1:31:16 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	943041	9914674
+Organism	Population
+Carrot		64299
+Rabbit		10082
+Fox		2842
+
+Oct 28, 2024 1:31:17 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1041352	9910103
+Organism	Population
+Carrot		69854
+Rabbit		10754
+Fox		2927
+
+Oct 28, 2024 1:31:17 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	694235	9903176
+Organism	Population
+Carrot		76287
+Rabbit		11471
+Fox		3059
+
+Oct 28, 2024 1:31:17 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	901088	9894665
+Organism	Population
+Carrot		78168
+Rabbit		12236
+Fox		3224
+
+Oct 28, 2024 1:31:17 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	600726	9890231
+Organism	Population
+Carrot		84963
+Rabbit		13052
+Fox		3416
+
+Oct 28, 2024 1:31:17 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	816036	9882106
+Organism	Population
+Carrot		78242
+Rabbit		13922
+Fox		3630
+
+Oct 28, 2024 1:31:18 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	962563	9886389
+Organism	Population
+Carrot		81810
+Rabbit		13270
+Fox		3864
+
+Oct 28, 2024 1:31:18 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	641709	9884106
+Organism	Population
+Carrot		87994
+Rabbit		14155
+Fox		3929
+
+Oct 28, 2024 1:31:18 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	864281	9877237
+Organism	Population
+Carrot		80738
+Rabbit		15099
+Fox		4073
+
+Oct 28, 2024 1:31:18 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1013521	9882433
+Organism	Population
+Carrot		85205
+Rabbit		13897
+Fox		4272
+
+Oct 28, 2024 1:31:18 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	675681	9879524
+Organism	Population
+Carrot		91492
+Rabbit		14823
+Fox		4256
+
+Oct 28, 2024 1:31:19 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	450454	9872365
+Organism	Population
+Carrot		84159
+Rabbit		15811
+Fox		4352
+
+Oct 28, 2024 1:31:19 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	300303	9877550
+Organism	Population
+Carrot		68190
+Rabbit		14506
+Fox		4527
+
+Oct 28, 2024 1:31:19 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	200202	9895075
+Organism	Population
+Carrot		52353
+Rabbit		12187
+Fox		4485
+
+Oct 28, 2024 1:31:19 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	133468	9916169
+Organism	Population
+Carrot		38958
+Rabbit		9506
+Fox		4211
+
+Oct 28, 2024 1:31:19 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	88979	9935892
+Organism	Population
+Carrot		28405
+Rabbit		6997
+Fox		3767
+
+Oct 28, 2024 1:31:20 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	459880	9952362
+Organism	Population
+Carrot		20415
+Rabbit		4992
+Fox		3241
+
+Oct 28, 2024 1:31:20 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	306587	9965293
+Organism	Population
+Carrot		21776
+Rabbit		3811
+Fox		2709
+
+Oct 28, 2024 1:31:20 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	607452	9967811
+Organism	Population
+Carrot		23228
+Rabbit		3674
+Fox		2238
+
+Oct 28, 2024 1:31:20 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	404968	9967115
+Organism	Population
+Carrot		25171
+Rabbit		3919
+Fox		1887
+
+Oct 28, 2024 1:31:20 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	269979	9964963
+Organism	Population
+Carrot		27401
+Rabbit		4180
+Fox		1658
+
+Oct 28, 2024 1:31:21 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	179986	9962087
+Organism	Population
+Carrot		28822
+Rabbit		4459
+Fox		1524
+
+Oct 28, 2024 1:31:21 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	556792	9959804
+Organism	Population
+Carrot		25288
+Rabbit		4756
+Fox		1463
+
+Oct 28, 2024 1:31:21 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	371195	9962653
+Organism	Population
+Carrot		26974
+Rabbit		4360
+Fox		1457
+
+Oct 28, 2024 1:31:21 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	247464	9961821
+Organism	Population
+Carrot		29043
+Rabbit		4651
+Fox		1409
+
+Oct 28, 2024 1:31:21 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	164976	9959503
+Organism	Population
+Carrot		28426
+Rabbit		4961
+Fox		1411
+
+Oct 28, 2024 1:31:22 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	109984	9959424
+Organism	Population
+Carrot		23645
+Rabbit		4793
+Fox		1448
+
+Oct 28, 2024 1:31:22 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	73323	9964182
+Organism	Population
+Carrot		18406
+Rabbit		4167
+Fox		1452
+
+Oct 28, 2024 1:31:22 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	48882	9970848
+Organism	Population
+Carrot		13813
+Rabbit		3337
+Fox		1386
+
+Oct 28, 2024 1:31:22 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	450268	9977441
+Organism	Population
+Carrot		10129
+Rabbit		2494
+Fox		1259
+
+Oct 28, 2024 1:31:22 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	300179	9983103
+Organism	Population
+Carrot		10804
+Rabbit		1895
+Fox		1096
+
+Oct 28, 2024 1:31:23 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	200120	9984126
+Organism	Population
+Carrot		11524
+Rabbit		1824
+Fox		931
+
+Oct 28, 2024 1:31:23 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	133414	9983713
+Organism	Population
+Carrot		12485
+Rabbit		1945
+Fox		808
+
+Oct 28, 2024 1:31:23 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	88943	9982628
+Organism	Population
+Carrot		13439
+Rabbit		2075
+Fox		734
+
+Oct 28, 2024 1:31:23 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	499100	9981349
+Organism	Population
+Carrot		12050
+Rabbit		2214
+Fox		697
+
+Oct 28, 2024 1:31:23 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	759189	9982354
+Organism	Population
+Carrot		12854
+Rabbit		2063
+Fox		688
+
+Oct 28, 2024 1:31:24 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	506126	9981852
+Organism	Population
+Carrot		13869
+Rabbit		2201
+Fox		666
+
+Oct 28, 2024 1:31:24 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	337418	9980686
+Organism	Population
+Carrot		15014
+Rabbit		2348
+Fox		667
+
+Oct 28, 2024 1:31:24 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	224946	9979191
+Organism	Population
+Carrot		16323
+Rabbit		2505
+Fox		685
+
+Oct 28, 2024 1:31:24 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	580703	9977434
+Organism	Population
+Carrot		17842
+Rabbit		2672
+Fox		714
+
+Oct 28, 2024 1:31:24 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	815929	9975388
+Organism	Population
+Carrot		19634
+Rabbit		2850
+Fox		752
+
+Oct 28, 2024 1:31:25 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	977516	9972982
+Organism	Population
+Carrot		21787
+Rabbit		3039
+Fox		796
+
+Oct 28, 2024 1:31:25 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1067374	9970107
+Organism	Population
+Carrot		24423
+Rabbit		3241
+Fox		845
+
+Oct 28, 2024 1:31:25 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	711583	9966609
+Organism	Population
+Carrot		27710
+Rabbit		3457
+Fox		899
+
+Oct 28, 2024 1:31:25 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	881408	9962272
+Organism	Population
+Carrot		31880
+Rabbit		3687
+Fox		958
+
+Oct 28, 2024 1:31:25 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	587606	9956801
+Organism	Population
+Carrot		37258
+Rabbit		3932
+Fox		1021
+
+Oct 28, 2024 1:31:26 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	818408	9949782
+Organism	Population
+Carrot		44297
+Rabbit		4194
+Fox		1088
+
+Oct 28, 2024 1:31:26 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	957005	9940637
+Organism	Population
+Carrot		53627
+Rabbit		4473
+Fox		1160
+
+Oct 28, 2024 1:31:26 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	638004	9928564
+Organism	Population
+Carrot		66131
+Rabbit		4771
+Fox		1237
+
+Oct 28, 2024 1:31:26 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	840682	9912438
+Organism	Population
+Carrot		79648
+Rabbit		5089
+Fox		1320
+
+Oct 28, 2024 1:31:26 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	974624	9894083
+Organism	Population
+Carrot		100008
+Rabbit		5428
+Fox		1408
+
+Oct 28, 2024 1:31:27 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1071517	9868216
+Organism	Population
+Carrot		124422
+Rabbit		5790
+Fox		1502
+
+Oct 28, 2024 1:31:27 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	714345	9836042
+Organism	Population
+Carrot		150578
+Rabbit		6175
+Fox		1602
+
+Oct 28, 2024 1:31:27 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	476230	9800234
+Organism	Population
+Carrot		155667
+Rabbit		6587
+Fox		1709
+
+Oct 28, 2024 1:31:27 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	746200	9784403
+Organism	Population
+Carrot		150202
+Rabbit		7026
+Fox		1823
+
+Oct 28, 2024 1:31:27 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	497467	9785118
+Organism	Population
+Carrot		155052
+Rabbit		7494
+Fox		1944
+
+Oct 28, 2024 1:31:28 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	331645	9780483
+Organism	Population
+Carrot		148542
+Rabbit		7993
+Fox		2074
+
+Oct 28, 2024 1:31:28 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	622397	9785602
+Organism	Population
+Carrot		136047
+Rabbit		8526
+Fox		2212
+
+Oct 28, 2024 1:31:28 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	414932	9799633
+Organism	Population
+Carrot		133744
+Rabbit		9094
+Fox		2359
+
+Oct 28, 2024 1:31:28 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	686359	9806145
+Organism	Population
+Carrot		122377
+Rabbit		9700
+Fox		2516
+
+Oct 28, 2024 1:31:28 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	457573	9819466
+Organism	Population
+Carrot		122036
+Rabbit		10347
+Fox		2684
+
+Oct 28, 2024 1:31:29 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	305049	9823803
+Organism	Population
+Carrot		110445
+Rabbit		11036
+Fox		2863
+
+Oct 28, 2024 1:31:29 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	641270	9836695
+Organism	Population
+Carrot		92753
+Rabbit		11772
+Fox		3054
+
+Oct 28, 2024 1:31:29 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	846080	9858255
+Organism	Population
+Carrot		89639
+Rabbit		12556
+Fox		3258
+
+Oct 28, 2024 1:31:29 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	970137	9867837
+Organism	Population
+Carrot		95004
+Rabbit		13393
+Fox		3475
+
+Oct 28, 2024 1:31:29 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1085813	9865347
+Organism	Population
+Carrot		103452
+Rabbit		14286
+Fox		3707
+
+Oct 28, 2024 1:31:30 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1137572	9856152
+Organism	Population
+Carrot		114327
+Rabbit		15238
+Fox		3954
+
+Oct 28, 2024 1:31:30 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	758382	9842518
+Organism	Population
+Carrot		125104
+Rabbit		16254
+Fox		4218
+
+Oct 28, 2024 1:31:30 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	917207	9827651
+Organism	Population
+Carrot		114838
+Rabbit		17337
+Fox		4499
+
+Oct 28, 2024 1:31:30 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	611472	9833457
+Organism	Population
+Carrot		111580
+Rabbit		18492
+Fox		4799
+
+Oct 28, 2024 1:31:30 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	833986	9838457
+Organism	Population
+Carrot		91290
+Rabbit		19724
+Fox		5119
+
+Oct 28, 2024 1:31:31 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	994970	9860247
+Organism	Population
+Carrot		90706
+Rabbit		16391
+Fox		5460
+
+Oct 28, 2024 1:31:31 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	663314	9867368
+Organism	Population
+Carrot		96530
+Rabbit		15455
+Fox		5289
+
+Oct 28, 2024 1:31:31 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	881640	9863680
+Organism	Population
+Carrot		86678
+Rabbit		16486
+Fox		5078
+
+Oct 28, 2024 1:31:31 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	587760	9872426
+Organism	Population
+Carrot		89801
+Rabbit		14994
+Fox		5055
+
+Oct 28, 2024 1:31:31 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	821027	9871926
+Organism	Population
+Carrot		77988
+Rabbit		14928
+Fox		4877
+
+Oct 28, 2024 1:31:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	984696	9883589
+Organism	Population
+Carrot		81818
+Rabbit		13515
+Fox		4755
+
+Oct 28, 2024 1:31:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	656464	9883258
+Organism	Population
+Carrot		87515
+Rabbit		14416
+Fox		4525
+
+Oct 28, 2024 1:31:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	874623	9877462
+Organism	Population
+Carrot		80532
+Rabbit		15377
+Fox		4474
+
+Oct 28, 2024 1:31:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	583082	9882706
+Organism	Population
+Carrot		85413
+Rabbit		13947
+Fox		4551
+
+Oct 28, 2024 1:31:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	388722	9879398
+Organism	Population
+Carrot		75959
+Rabbit		14876
+Fox		4439
+
+Oct 28, 2024 1:31:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	259148	9887860
+Organism	Population
+Carrot		60717
+Rabbit		13252
+Fox		4472
+
+Oct 28, 2024 1:31:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	577731	9905641
+Organism	Population
+Carrot		46269
+Rabbit		10935
+Fox		4313
+
+Oct 28, 2024 1:31:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	797285	9925423
+Organism	Population
+Carrot		49353
+Rabbit		8542
+Fox		3971
+
+Oct 28, 2024 1:31:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	531524	9928273
+Organism	Population
+Carrot		52643
+Rabbit		8299
+Fox		3515
+
+Oct 28, 2024 1:31:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	354350	9925838
+Organism	Population
+Carrot		55339
+Rabbit		8852
+Fox		3178
+
+Oct 28, 2024 1:36:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Starting automatic simulation with ecosystem details: 
+Ecosystem: Ecosystem
+EnvironmentCondition:
+Temperature: 25.0
+Humidity: 50.0
+FertileSoilAmount: 9925838
+WaterAvailability: 354350
+DailyPrecipitation: 200000
+OrganicMatterAccumulation: 74162
+Organisms:
+	Organism: Carrot 'plant'
+FoodRequirements: 1
+Population: 55339
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 25.0
+	Organism: Rabbit 'herbivore'
+FoodRequirements: 2
+Population: 8852
+WaterRequirements: 1
+OptimalHumidity: 30.0
+OptimalTemperature: 20.0
+	Organism: Fox 'carnivore'
+FoodRequirements: 2
+Population: 3178
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 15.0
+Oct 28, 2024 1:36:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	669352	9922412
+Organism	Population
+Carrot		48409
+Rabbit		9442
+Fox		3006
+
+Oct 28, 2024 1:36:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	446235	9928314
+Organism	Population
+Carrot		51636
+Rabbit		8435
+Fox		2957
+
+Oct 28, 2024 1:36:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	297490	9926858
+Organism	Population
+Carrot		50498
+Rabbit		8998
+Fox		2817
+
+Oct 28, 2024 1:36:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	625854	9927559
+Organism	Population
+Carrot		42221
+Rabbit		8568
+Fox		2788
+
+Oct 28, 2024 1:36:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	834436	9936046
+Organism	Population
+Carrot		45036
+Rabbit		7442
+Fox		2722
+
+Oct 28, 2024 1:36:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	556291	9935777
+Organism	Population
+Carrot		48166
+Rabbit		7938
+Fox		2560
+
+Oct 28, 2024 1:36:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	370861	9932567
+Organism	Population
+Carrot		51556
+Rabbit		8467
+Fox		2507
+
+Oct 28, 2024 1:36:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	655976	9928214
+Organism	Population
+Carrot		46701
+Rabbit		9031
+Fox		2533
+
+Oct 28, 2024 1:36:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	437318	9931763
+Organism	Population
+Carrot		49814
+Rabbit		8117
+Fox		2614
+
+Oct 28, 2024 1:36:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	724294	9929714
+Organism	Population
+Carrot		49071
+Rabbit		8658
+Fox		2561
+
+Oct 28, 2024 1:36:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	907085	9929843
+Organism	Population
+Carrot		52342
+Rabbit		8300
+Fox		2588
+
+Oct 28, 2024 1:36:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1034741	9926610
+Organism	Population
+Carrot		56678
+Rabbit		8854
+Fox		2565
+
+Oct 28, 2024 1:36:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1110168	9921305
+Organism	Population
+Carrot		61641
+Rabbit		9444
+Fox		2613
+
+Oct 28, 2024 1:36:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1153822	9914750
+Organism	Population
+Carrot		67409
+Rabbit		10073
+Fox		2712
+
+Oct 28, 2024 1:36:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1205236	9907015
+Organism	Population
+Carrot		74226
+Rabbit		10745
+Fox		2847
+
+Oct 28, 2024 1:36:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1217550	9897878
+Organism	Population
+Carrot		82426
+Rabbit		11461
+Fox		3009
+
+Oct 28, 2024 1:36:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1243233	9886937
+Organism	Population
+Carrot		92474
+Rabbit		12225
+Fox		3193
+
+Oct 28, 2024 1:36:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1253394	9873607
+Organism	Population
+Carrot		105013
+Rabbit		13040
+Fox		3396
+
+Oct 28, 2024 1:36:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1254734	9857069
+Organism	Population
+Carrot		120938
+Rabbit		13910
+Fox		3616
+
+Oct 28, 2024 1:36:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1245568	9836182
+Organism	Population
+Carrot		138704
+Rabbit		14838
+Fox		3854
+
+Oct 28, 2024 1:36:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	830379	9812150
+Organism	Population
+Carrot		153421
+Rabbit		15827
+Fox		4109
+
+Oct 28, 2024 1:36:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	969921	9790224
+Organism	Population
+Carrot		144230
+Rabbit		16882
+Fox		4382
+
+Oct 28, 2024 1:36:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1056847	9792837
+Organism	Population
+Carrot		140868
+Rabbit		18007
+Fox		4673
+
+Oct 28, 2024 1:36:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1117232	9796983
+Organism	Population
+Carrot		140032
+Rabbit		19207
+Fox		4984
+
+Oct 28, 2024 1:36:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1156635	9799062
+Organism	Population
+Carrot		139868
+Rabbit		20487
+Fox		5316
+
+Oct 28, 2024 1:36:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	771090	9799850
+Organism	Population
+Carrot		139061
+Rabbit		21852
+Fox		5670
+
+Oct 28, 2024 1:36:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	934040	9800894
+Organism	Population
+Carrot		116592
+Rabbit		23308
+Fox		6048
+
+Oct 28, 2024 1:36:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	622694	9823676
+Organism	Population
+Carrot		109761
+Rabbit		20462
+Fox		6451
+
+Oct 28, 2024 1:36:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	415130	9837341
+Organism	Population
+Carrot		90609
+Rabbit		18876
+Fox		6368
+
+Oct 28, 2024 1:37:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	276754	9860593
+Organism	Population
+Carrot		70255
+Rabbit		16093
+Fox		6143
+
+Oct 28, 2024 1:37:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	593793	9887922
+Organism	Population
+Carrot		52599
+Rabbit		12756
+Fox		5708
+
+Oct 28, 2024 1:37:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	395862	9913777
+Organism	Population
+Carrot		56105
+Rabbit		9793
+Fox		5095
+
+Oct 28, 2024 1:37:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	668925	9918028
+Organism	Population
+Carrot		50162
+Rabbit		9459
+Fox		4410
+
+Oct 28, 2024 1:37:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	445950	9925246
+Organism	Population
+Carrot		53506
+Rabbit		8655
+Fox		3901
+
+Oct 28, 2024 1:37:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	726252	9924067
+Organism	Population
+Carrot		51727
+Rabbit		9232
+Fox		3476
+
+Oct 28, 2024 1:37:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	484168	9925493
+Organism	Population
+Carrot		55175
+Rabbit		8781
+Fox		3242
+
+Oct 28, 2024 1:37:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	322779	9922472
+Organism	Population
+Carrot		54761
+Rabbit		9366
+Fox		3041
+
+Oct 28, 2024 1:37:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	631534	9921980
+Organism	Population
+Carrot		45793
+Rabbit		9174
+Fox		2971
+
+Oct 28, 2024 1:37:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	848807	9930801
+Organism	Population
+Carrot		48846
+Rabbit		8041
+Fox		2905
+
+Oct 28, 2024 1:37:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	565872	9930394
+Organism	Population
+Carrot		52302
+Rabbit		8577
+Fox		2742
+
+Oct 28, 2024 1:37:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	377248	9926816
+Organism	Population
+Carrot		55679
+Rabbit		9148
+Fox		2693
+
+Oct 28, 2024 1:37:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	251499	9922365
+Organism	Population
+Carrot		49260
+Rabbit		9758
+Fox		2727
+
+Oct 28, 2024 1:37:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	590864	9927449
+Organism	Population
+Carrot		39348
+Rabbit		8622
+Fox		2819
+
+Oct 28, 2024 1:37:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	393910	9938886
+Organism	Population
+Carrot		41971
+Rabbit		7094
+Fox		2748
+
+Oct 28, 2024 1:37:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	262607	9939694
+Organism	Population
+Carrot		42155
+Rabbit		7005
+Fox		2543
+
+Oct 28, 2024 1:37:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	583136	9939753
+Organism	Population
+Carrot		35988
+Rabbit		7472
+Fox		2397
+
+Oct 28, 2024 1:37:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	388758	9945937
+Organism	Population
+Carrot		38387
+Rabbit		6386
+Fox		2352
+
+Oct 28, 2024 1:37:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	670766	9945394
+Organism	Population
+Carrot		39729
+Rabbit		6812
+Fox		2207
+
+Oct 28, 2024 1:37:03 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	873378	9943889
+Organism	Population
+Carrot		42377
+Rabbit		6661
+Fox		2158
+
+Oct 28, 2024 1:37:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	582252	9940789
+Organism	Population
+Carrot		46005
+Rabbit		7105
+Fox		2110
+
+Oct 28, 2024 1:37:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	388168	9936231
+Organism	Population
+Carrot		50196
+Rabbit		7579
+Fox		2129
+
+Oct 28, 2024 1:37:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	694867	9930673
+Organism	Population
+Carrot		48146
+Rabbit		8084
+Fox		2196
+
+Oct 28, 2024 1:37:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	890438	9931055
+Organism	Population
+Carrot		51356
+Rabbit		8018
+Fox		2297
+
+Oct 28, 2024 1:37:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	593626	9927960
+Organism	Population
+Carrot		55862
+Rabbit		8553
+Fox		2351
+
+Oct 28, 2024 1:37:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	828479	9922526
+Organism	Population
+Carrot		60315
+Rabbit		9123
+Fox		2447
+
+Oct 28, 2024 1:37:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	552320	9916442
+Organism	Population
+Carrot		66195
+Rabbit		9731
+Fox		2573
+
+Oct 28, 2024 1:37:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	800309	9908737
+Organism	Population
+Carrot		65977
+Rabbit		10380
+Fox		2722
+
+Oct 28, 2024 1:37:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	949551	9906644
+Organism	Population
+Carrot		71607
+Rabbit		11071
+Fox		2890
+
+Oct 28, 2024 1:37:05 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1054175	9900386
+Organism	Population
+Carrot		78107
+Rabbit		11809
+Fox		3074
+
+Oct 28, 2024 1:37:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1131053	9892008
+Organism	Population
+Carrot		85731
+Rabbit		12596
+Fox		3274
+
+Oct 28, 2024 1:37:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	754036	9881871
+Organism	Population
+Carrot		94831
+Rabbit		13436
+Fox		3490
+
+Oct 28, 2024 1:37:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	502691	9869730
+Organism	Population
+Carrot		93737
+Rabbit		14332
+Fox		3721
+
+Oct 28, 2024 1:37:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	335128	9867182
+Organism	Population
+Carrot		78578
+Rabbit		15287
+Fox		3968
+
+Oct 28, 2024 1:37:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	223419	9881576
+Organism	Population
+Carrot		59870
+Rabbit		13682
+Fox		4232
+
+Oct 28, 2024 1:37:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	577224	9904602
+Organism	Population
+Carrot		44339
+Rabbit		10800
+Fox		4207
+
+Oct 28, 2024 1:37:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	812229	9927041
+Organism	Population
+Carrot		47295
+Rabbit		8267
+Fox		3887
+
+Oct 28, 2024 1:37:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	541486	9930817
+Organism	Population
+Carrot		50448
+Rabbit		7978
+Fox		3432
+
+Oct 28, 2024 1:37:07 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	360991	9928797
+Organism	Population
+Carrot		54148
+Rabbit		8510
+Fox		3092
+
+Oct 28, 2024 1:37:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	240661	9924491
+Organism	Population
+Carrot		48384
+Rabbit		9078
+Fox		2914
+
+Oct 28, 2024 1:37:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	572650	9928963
+Organism	Population
+Carrot		38358
+Rabbit		8336
+Fox		2858
+
+Oct 28, 2024 1:37:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	819873	9940330
+Organism	Population
+Carrot		40915
+Rabbit		6899
+Fox		2742
+
+Oct 28, 2024 1:37:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	980767	9941184
+Organism	Population
+Carrot		43643
+Rabbit		6824
+Fox		2520
+
+Oct 28, 2024 1:37:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	653845	9938712
+Organism	Population
+Carrot		47452
+Rabbit		7279
+Fox		2363
+
+Oct 28, 2024 1:37:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	435897	9934161
+Organism	Population
+Carrot		51874
+Rabbit		7764
+Fox		2309
+
+Oct 28, 2024 1:37:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	290598	9928374
+Organism	Population
+Carrot		51572
+Rabbit		8281
+Fox		2329
+
+Oct 28, 2024 1:37:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	626498	9926940
+Organism	Population
+Carrot		43107
+Rabbit		8833
+Fox		2401
+
+Oct 28, 2024 1:37:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	417666	9934975
+Organism	Population
+Carrot		45980
+Rabbit		7620
+Fox		2510
+
+Oct 28, 2024 1:37:09 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	278444	9934512
+Organism	Population
+Carrot		45667
+Rabbit		8128
+Fox		2440
+
+Oct 28, 2024 1:37:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	604103	9934686
+Organism	Population
+Carrot		38643
+Rabbit		7745
+Fox		2452
+
+Oct 28, 2024 1:37:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	402736	9941762
+Organism	Population
+Carrot		41219
+Rabbit		6787
+Fox		2417
+
+Oct 28, 2024 1:37:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	673160	9941309
+Organism	Population
+Carrot		42224
+Rabbit		7239
+Fox		2291
+
+Oct 28, 2024 1:37:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	448774	9940168
+Organism	Population
+Carrot		45039
+Rabbit		7079
+Fox		2258
+
+Oct 28, 2024 1:37:10 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	299183	9937011
+Organism	Population
+Carrot		47157
+Rabbit		7551
+Fox		2220
+
+Oct 28, 2024 1:37:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	607821	9933946
+Organism	Population
+Carrot		41098
+Rabbit		8054
+Fox		2249
+
+Oct 28, 2024 1:37:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	405214	9939085
+Organism	Population
+Carrot		43838
+Rabbit		7171
+Fox		2325
+
+Oct 28, 2024 1:37:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	270143	9937887
+Organism	Population
+Carrot		44034
+Rabbit		7649
+Fox		2273
+
+Oct 28, 2024 1:37:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	180096	9937332
+Organism	Population
+Carrot		37342
+Rabbit		7413
+Fox		2293
+
+Oct 28, 2024 1:37:11 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	535761	9943857
+Organism	Population
+Carrot		29350
+Rabbit		6540
+Fox		2279
+
+Oct 28, 2024 1:37:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	357174	9953807
+Organism	Population
+Carrot		31307
+Rabbit		5319
+Fox		2175
+
+Oct 28, 2024 1:37:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	238116	9954835
+Organism	Population
+Carrot		33394
+Rabbit		5233
+Fox		1984
+
+Oct 28, 2024 1:37:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	596808	9953056
+Organism	Population
+Carrot		30646
+Rabbit		5582
+Fox		1847
+
+Oct 28, 2024 1:37:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	821581	9955270
+Organism	Population
+Carrot		32689
+Rabbit		5234
+Fox		1793
+
+Oct 28, 2024 1:37:12 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	969455	9953891
+Organism	Population
+Carrot		35296
+Rabbit		5583
+Fox		1721
+
+Oct 28, 2024 1:37:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1077349	9950871
+Organism	Population
+Carrot		38248
+Rabbit		5955
+Fox		1712
+
+Oct 28, 2024 1:37:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1133982	9947013
+Organism	Population
+Carrot		41637
+Rabbit		6352
+Fox		1749
+
+Oct 28, 2024 1:37:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1169824	9942466
+Organism	Population
+Carrot		45587
+Rabbit		6775
+Fox		1819
+
+Oct 28, 2024 1:37:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	779883	9937152
+Organism	Population
+Carrot		50271
+Rabbit		7227
+Fox		1912
+
+Oct 28, 2024 1:37:13 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	519922	9930874
+Organism	Population
+Carrot		55925
+Rabbit		7708
+Fox		2022
+
+Oct 28, 2024 1:37:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	762363	9923337
+Organism	Population
+Carrot		59184
+Rabbit		8222
+Fox		2146
+
+Oct 28, 2024 1:37:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	927402	9917817
+Organism	Population
+Carrot		66413
+Rabbit		8770
+Fox		2283
+
+Oct 28, 2024 1:37:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1040590	9908932
+Organism	Population
+Carrot		75438
+Rabbit		9355
+Fox		2432
+
+Oct 28, 2024 1:37:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1127110	9897241
+Organism	Population
+Carrot		86903
+Rabbit		9979
+Fox		2592
+
+Oct 28, 2024 1:37:14 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1187125	9882269
+Organism	Population
+Carrot		101706
+Rabbit		10644
+Fox		2763
+
+Oct 28, 2024 1:37:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1227587	9862974
+Organism	Population
+Carrot		121100
+Rabbit		11353
+Fox		2946
+
+Oct 28, 2024 1:37:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	818392	9837792
+Organism	Population
+Carrot		142965
+Rabbit		12110
+Fox		3142
+
+Oct 28, 2024 1:37:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	545595	9808372
+Organism	Population
+Carrot		141808
+Rabbit		12918
+Fox		3351
+
+Oct 28, 2024 1:37:15 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	767359	9800703
+Organism	Population
+Carrot		127089
+Rabbit		13779
+Fox		3575
+
+Oct 28, 2024 8:07:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Starting automatic simulation with ecosystem details: 
+Ecosystem: Ecosystem
+EnvironmentCondition:
+Temperature: 25.0
+Humidity: 50.0
+FertileSoilAmount: 9914996
+WaterAvailability: 654017
+DailyPrecipitation: 200000
+OrganicMatterAccumulation: 85004
+Organisms:
+	Organism: Carrot 'plant'
+FoodRequirements: 1
+Population: 48409
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 25.0
+	Organism: Rabbit 'herbivore'
+FoodRequirements: 2
+Population: 9442
+WaterRequirements: 1
+OptimalHumidity: 30.0
+OptimalTemperature: 20.0
+	Organism: Fox 'carnivore'
+FoodRequirements: 2
+Population: 3006
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 15.0
+Oct 28, 2024 8:07:32 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	436012	9917589
+Organism	Population
+Carrot		51636
+Rabbit		8435
+Fox		2957
+
+Oct 28, 2024 8:07:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	290675	9915399
+Organism	Population
+Carrot		50021
+Rabbit		8998
+Fox		2817
+
+Oct 28, 2024 8:07:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	613571	9916138
+Organism	Population
+Carrot		41627
+Rabbit		8511
+Fox		2788
+
+Oct 28, 2024 8:07:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	838293	9924828
+Organism	Population
+Carrot		44402
+Rabbit		7353
+Fox		2716
+
+Oct 28, 2024 8:07:33 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	970445	9925529
+Organism	Population
+Carrot		47456
+Rabbit		7843
+Fox		2547
+
+Oct 28, 2024 8:07:34 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	646964	9922755
+Organism	Population
+Carrot		50752
+Rabbit		8366
+Fox		2488
+
+Oct 28, 2024 8:07:34 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	847951	9918350
+Organism	Population
+Carrot		54320
+Rabbit		8924
+Fox		2509
+
+Oct 28, 2024 8:07:34 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	565301	9913020
+Organism	Population
+Carrot		58200
+Rabbit		9519
+Fox		2587
+
+Oct 28, 2024 8:07:34 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	782483	9907008
+Organism	Population
+Carrot		59611
+Rabbit		10153
+Fox		2705
+
+Oct 28, 2024 8:07:34 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	521656	9903192
+Organism	Population
+Carrot		63585
+Rabbit		9973
+Fox		2852
+
+Oct 28, 2024 8:07:35 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	347771	9897691
+Organism	Population
+Carrot		61700
+Rabbit		10638
+Fox		2921
+
+Oct 28, 2024 8:07:35 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	231848	9897376
+Organism	Population
+Carrot		50826
+Rabbit		10362
+Fox		3041
+
+Oct 28, 2024 8:07:35 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	154566	9908124
+Organism	Population
+Carrot		39365
+Rabbit		8970
+Fox		3083
+
+Oct 28, 2024 8:07:35 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	517120	9923884
+Organism	Population
+Carrot		29452
+Rabbit		7137
+Fox		2956
+
+Oct 28, 2024 8:07:35 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	779604	9940101
+Organism	Population
+Carrot		31415
+Rabbit		5482
+Fox		2687
+
+Oct 28, 2024 8:07:36 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	519736	9944625
+Organism	Population
+Carrot		33510
+Rabbit		5296
+Fox		2352
+
+Oct 28, 2024 8:07:36 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	747330	9944340
+Organism	Population
+Carrot		36322
+Rabbit		5649
+Fox		2103
+
+Oct 28, 2024 8:07:36 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	923284	9941414
+Organism	Population
+Carrot		39552
+Rabbit		6025
+Fox		1968
+
+Oct 28, 2024 8:07:36 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1036110	9937013
+Organism	Population
+Carrot		43322
+Rabbit		6427
+Fox		1919
+
+Oct 28, 2024 8:07:36 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	690740	9931483
+Organism	Population
+Carrot		47796
+Rabbit		6855
+Fox		1932
+
+Oct 28, 2024 8:07:37 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	460494	9924797
+Organism	Population
+Carrot		53204
+Rabbit		7312
+Fox		1990
+
+Oct 28, 2024 8:07:37 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	306996	9916714
+Organism	Population
+Carrot		54823
+Rabbit		7799
+Fox		2079
+
+Oct 28, 2024 8:07:37 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	625285	9911862
+Organism	Population
+Carrot		47740
+Rabbit		8319
+Fox		2192
+
+Oct 28, 2024 8:07:37 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	840486	9917004
+Organism	Population
+Carrot		50923
+Rabbit		8044
+Fox		2322
+
+Oct 28, 2024 8:07:37 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	560324	9915878
+Organism	Population
+Carrot		55204
+Rabbit		8580
+Fox		2369
+
+Oct 28, 2024 8:07:38 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	774833	9911147
+Organism	Population
+Carrot		58389
+Rabbit		9152
+Fox		2461
+
+Oct 28, 2024 8:07:38 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	516556	9906069
+Organism	Population
+Carrot		63440
+Rabbit		9762
+Fox		2585
+
+Oct 28, 2024 8:07:38 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	344371	9898987
+Organism	Population
+Carrot		61748
+Rabbit		10412
+Fox		2733
+
+Oct 28, 2024 8:07:38 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	638352	9897846
+Organism	Population
+Carrot		50689
+Rabbit		10298
+Fox		2900
+
+Oct 28, 2024 8:07:38 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	844009	9908449
+Organism	Population
+Carrot		54068
+Rabbit		8938
+Fox		2988
+
+Oct 28, 2024 8:07:39 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	984164	9909311
+Organism	Population
+Carrot		57819
+Rabbit		9534
+Fox		2891
+
+Oct 28, 2024 8:07:39 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1087076	9905905
+Organism	Population
+Carrot		61878
+Rabbit		10169
+Fox		2895
+
+Oct 28, 2024 8:07:39 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1157971	9900484
+Organism	Population
+Carrot		66291
+Rabbit		10847
+Fox		2970
+
+Oct 28, 2024 8:07:39 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	771981	9893902
+Organism	Population
+Carrot		71113
+Rabbit		11570
+Fox		3096
+
+Oct 28, 2024 8:07:39 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	514654	9886447
+Organism	Population
+Carrot		75975
+Rabbit		12341
+Fox		3259
+
+Oct 28, 2024 8:07:40 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	343103	9878603
+Organism	Population
+Carrot		67495
+Rabbit		13164
+Fox		3450
+
+Oct 28, 2024 8:07:40 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	655962	9883946
+Organism	Population
+Carrot		53845
+Rabbit		11760
+Fox		3664
+
+Oct 28, 2024 8:07:40 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	437308	9899733
+Organism	Population
+Carrot		57435
+Rabbit		9699
+Fox		3632
+
+Oct 28, 2024 8:07:40 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	712843	9902458
+Organism	Population
+Carrot		52950
+Rabbit		9583
+Fox		3393
+
+Oct 28, 2024 8:07:40 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	475229	9908033
+Organism	Population
+Carrot		56480
+Rabbit		9026
+Fox		3223
+
+Oct 28, 2024 8:07:41 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	316820	9906733
+Organism	Population
+Carrot		55035
+Rabbit		9628
+Fox		3053
+
+Oct 28, 2024 8:07:41 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	211214	9907658
+Organism	Population
+Carrot		45654
+Rabbit		9285
+Fox		3008
+
+Oct 28, 2024 8:07:41 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	550424	9917409
+Organism	Population
+Carrot		35487
+Rabbit		8052
+Fox		2941
+
+Oct 28, 2024 8:07:41 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	366950	9931476
+Organism	Population
+Carrot		37852
+Rabbit		6467
+Fox		2767
+
+Oct 28, 2024 8:07:41 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	670677	9934738
+Organism	Population
+Carrot		38506
+Rabbit		6339
+Fox		2496
+
+Oct 28, 2024 8:07:42 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	447118	9935389
+Organism	Population
+Carrot		41230
+Rabbit		6761
+Fox		2299
+
+Oct 28, 2024 8:07:42 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	298079	9932925
+Organism	Population
+Carrot		43928
+Rabbit		7212
+Fox		2212
+
+Oct 28, 2024 8:07:42 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	198720	9929242
+Organism	Population
+Carrot		38897
+Rabbit		7692
+Fox		2205
+
+Oct 28, 2024 8:07:42 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	538659	9932799
+Organism	Population
+Carrot		31077
+Rabbit		6805
+Fox		2256
+
+Oct 28, 2024 8:07:42 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	798239	9942042
+Organism	Population
+Carrot		33148
+Rabbit		5602
+Fox		2188
+
+Oct 28, 2024 8:07:43 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	532160	9943668
+Organism	Population
+Carrot		35358
+Rabbit		5532
+Fox		2020
+
+Oct 28, 2024 8:07:43 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	769697	9942109
+Organism	Population
+Carrot		38437
+Rabbit		5900
+Fox		1901
+
+Oct 28, 2024 8:07:43 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	513132	9938406
+Organism	Population
+Carrot		42011
+Rabbit		6294
+Fox		1862
+
+Oct 28, 2024 8:07:43 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	342088	9933351
+Organism	Population
+Carrot		46227
+Rabbit		6713
+Fox		1882
+
+Oct 28, 2024 8:07:43 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	648806	9927113
+Organism	Population
+Carrot		44109
+Rabbit		7161
+Fox		1943
+
+Oct 28, 2024 8:07:44 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	432538	9926736
+Organism	Population
+Carrot		47430
+Rabbit		7638
+Fox		2033
+
+Oct 28, 2024 8:07:44 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	288359	9923264
+Organism	Population
+Carrot		47627
+Rabbit		8147
+Fox		2144
+
+Oct 28, 2024 8:07:44 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	617215	9921678
+Organism	Population
+Carrot		40202
+Rabbit		7979
+Fox		2273
+
+Oct 28, 2024 8:07:44 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	411477	9928469
+Organism	Population
+Carrot		42882
+Rabbit		7041
+Fox		2331
+
+Oct 28, 2024 8:07:44 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	274318	9928505
+Organism	Population
+Carrot		43660
+Rabbit		7510
+Fox		2262
+
+Oct 28, 2024 8:07:45 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	182879	9927742
+Organism	Population
+Carrot		37346
+Rabbit		7327
+Fox		2270
+
+Oct 28, 2024 8:07:45 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	544826	9933750
+Organism	Population
+Carrot		29477
+Rabbit		6519
+Fox		2255
+
+Oct 28, 2024 8:07:45 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	785776	9944023
+Organism	Population
+Carrot		31442
+Rabbit		5329
+Fox		2157
+
+Oct 28, 2024 8:07:45 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	523851	9946167
+Organism	Population
+Carrot		33538
+Rabbit		5252
+Fox		1972
+
+Oct 28, 2024 8:07:45 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	349234	9944928
+Organism	Population
+Carrot		36449
+Rabbit		5602
+Fox		1840
+
+Oct 28, 2024 8:07:46 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	232823	9941522
+Organism	Population
+Carrot		37855
+Rabbit		5975
+Fox		1790
+
+Oct 28, 2024 8:07:46 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	584385	9938753
+Organism	Population
+Carrot		32800
+Rabbit		6374
+Fox		1800
+
+Oct 28, 2024 8:07:46 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	816044	9942701
+Organism	Population
+Carrot		34987
+Rabbit		5710
+Fox		1852
+
+Oct 28, 2024 8:07:46 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	544030	9942093
+Organism	Population
+Carrot		37561
+Rabbit		6090
+Fox		1810
+
+Oct 28, 2024 8:07:46 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	362687	9939276
+Organism	Population
+Carrot		40405
+Rabbit		6496
+Fox		1826
+
+Oct 28, 2024 8:07:47 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	648531	9935305
+Organism	Population
+Carrot		40338
+Rabbit		6929
+Fox		1883
+
+Oct 28, 2024 8:07:47 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	864336	9933784
+Organism	Population
+Carrot		43027
+Rabbit		6767
+Fox		1969
+
+Oct 28, 2024 8:07:47 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	576224	9930486
+Organism	Population
+Carrot		46703
+Rabbit		7218
+Fox		2003
+
+Oct 28, 2024 8:07:47 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	821671	9925491
+Organism	Population
+Carrot		50948
+Rabbit		7699
+Fox		2076
+
+Oct 28, 2024 8:07:47 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	950737	9919248
+Organism	Population
+Carrot		55929
+Rabbit		8212
+Fox		2178
+
+Oct 28, 2024 8:07:48 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1034070	9911770
+Organism	Population
+Carrot		61876
+Rabbit		8759
+Fox		2301
+
+Oct 28, 2024 8:07:48 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1102725	9902832
+Organism	Population
+Carrot		69108
+Rabbit		9343
+Fox		2441
+
+Oct 28, 2024 8:07:48 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	735150	9892024
+Organism	Population
+Carrot		78065
+Rabbit		9966
+Fox		2596
+
+Oct 28, 2024 8:07:48 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	490100	9878744
+Organism	Population
+Carrot		84603
+Rabbit		10630
+Fox		2764
+
+Oct 28, 2024 8:07:48 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	733684	9866894
+Organism	Population
+Carrot		77271
+Rabbit		11338
+Fox		2945
+
+Oct 28, 2024 8:07:49 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	914997	9869486
+Organism	Population
+Carrot		81049
+Rabbit		12094
+Fox		3140
+
+Oct 28, 2024 8:07:49 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1037377	9866745
+Organism	Population
+Carrot		89280
+Rabbit		12900
+Fox		3348
+
+Oct 28, 2024 8:07:49 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1112477	9857418
+Organism	Population
+Carrot		99191
+Rabbit		13760
+Fox		3571
+
+Oct 28, 2024 8:07:49 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	741652	9843776
+Organism	Population
+Carrot		111347
+Rabbit		14678
+Fox		3809
+
+Oct 28, 2024 8:07:49 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	494435	9826163
+Organism	Population
+Carrot		105103
+Rabbit		15657
+Fox		4063
+
+Oct 28, 2024 8:07:50 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	758641	9825362
+Organism	Population
+Carrot		85777
+Rabbit		16700
+Fox		4334
+
+Oct 28, 2024 8:07:50 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	505761	9844367
+Organism	Population
+Carrot		84114
+Rabbit		14939
+Fox		4623
+
+Oct 28, 2024 8:07:50 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	737959	9853632
+Organism	Population
+Carrot		70827
+Rabbit		14258
+Fox		4594
+
+Oct 28, 2024 8:07:50 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	898177	9870625
+Organism	Population
+Carrot		74029
+Rabbit		12455
+Fox		4501
+
+Oct 28, 2024 8:07:50 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1007289	9874221
+Organism	Population
+Carrot		78964
+Rabbit		12337
+Fox		4249
+
+Oct 28, 2024 8:07:51 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1076619	9870724
+Organism	Population
+Carrot		85875
+Rabbit		13159
+Fox		4071
+
+Oct 28, 2024 8:07:51 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1136448	9862414
+Organism	Population
+Carrot		93906
+Rabbit		14036
+Fox		4046
+
+Oct 28, 2024 8:07:51 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	757632	9851059
+Organism	Population
+Carrot		103396
+Rabbit		14972
+Fox		4131
+
+Oct 28, 2024 8:07:51 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	922118	9837027
+Organism	Population
+Carrot		98371
+Rabbit		15970
+Fox		4293
+
+Oct 28, 2024 8:07:51 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	614746	9836439
+Organism	Population
+Carrot		99606
+Rabbit		17035
+Fox		4510
+
+Oct 28, 2024 8:07:52 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	820862	9834969
+Organism	Population
+Carrot		84652
+Rabbit		16687
+Fox		4769
+
+Oct 28, 2024 8:07:52 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	547242	9849335
+Organism	Population
+Carrot		86123
+Rabbit		14796
+Fox		4885
+
+Oct 28, 2024 8:07:52 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	364828	9853611
+Organism	Population
+Carrot		73973
+Rabbit		14448
+Fox		4746
+
+Oct 28, 2024 8:07:52 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	243219	9867471
+Organism	Population
+Carrot		58504
+Rabbit		12895
+Fox		4619
+
+Oct 28, 2024 8:07:52 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	574988	9888484
+Organism	Population
+Carrot		44315
+Rabbit		10567
+Fox		4372
+
+Oct 28, 2024 8:07:53 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	793439	9911078
+Organism	Population
+Carrot		47269
+Rabbit		8205
+Fox		3976
+
+Oct 28, 2024 8:07:53 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	528960	9917162
+Organism	Population
+Carrot		50420
+Rabbit		7955
+Fox		3489
+
+Oct 28, 2024 8:07:53 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	352640	9916444
+Organism	Population
+Carrot		53727
+Rabbit		8486
+Fox		3129
+
+Oct 28, 2024 8:07:53 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	657079	9912850
+Organism	Population
+Carrot		47645
+Rabbit		9052
+Fox		2936
+
+Oct 28, 2024 8:07:53 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	438053	9917495
+Organism	Population
+Carrot		50822
+Rabbit		8239
+Fox		2869
+
+Oct 28, 2024 8:07:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	292036	9916176
+Organism	Population
+Carrot		49775
+Rabbit		8788
+Fox		2739
+
+Oct 28, 2024 8:07:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	627679	9916695
+Organism	Population
+Carrot		41558
+Rabbit		8421
+Fox		2715
+
+Oct 28, 2024 8:07:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	418453	9925120
+Organism	Population
+Carrot		44329
+Rabbit		7322
+Fox		2659
+
+Oct 28, 2024 8:07:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	690315	9925719
+Organism	Population
+Carrot		44758
+Rabbit		7810
+Fox		2506
+
+Oct 28, 2024 8:07:54 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	868751	9925529
+Organism	Population
+Carrot		47742
+Rabbit		7545
+Fox		2458
+
+Oct 28, 2024 8:07:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	579168	9922469
+Organism	Population
+Carrot		51748
+Rabbit		8048
+Fox		2399
+
+Oct 28, 2024 8:07:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	823269	9917239
+Organism	Population
+Carrot		56351
+Rabbit		8585
+Fox		2417
+
+Oct 28, 2024 8:07:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	974961	9910544
+Organism	Population
+Carrot		61721
+Rabbit		9158
+Fox		2491
+
+Oct 28, 2024 8:07:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	649974	9902496
+Organism	Population
+Carrot		68093
+Rabbit		9769
+Fox		2604
+
+Oct 28, 2024 8:07:55 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	433316	9892905
+Organism	Population
+Carrot		72010
+Rabbit		10420
+Fox		2745
+
+Oct 28, 2024 8:07:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	288878	9885152
+Organism	Population
+Carrot		63814
+Rabbit		11114
+Fox		2909
+
+Oct 28, 2024 8:07:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	192586	9890246
+Organism	Population
+Carrot		49329
+Rabbit		10752
+Fox		3091
+
+Oct 28, 2024 8:07:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	553971	9906769
+Organism	Population
+Carrot		36863
+Rabbit		8853
+Fox		3159
+
+Oct 28, 2024 8:07:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	369314	9925844
+Organism	Population
+Carrot		39321
+Rabbit		6841
+Fox		2993
+
+Oct 28, 2024 8:07:56 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	246210	9931016
+Organism	Population
+Carrot		39505
+Rabbit		6623
+Fox		2685
+
+Oct 28, 2024 8:07:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	164140	9932901
+Organism	Population
+Carrot		33693
+Rabbit		6576
+Fox		2454
+
+Oct 28, 2024 8:07:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	109427	9939467
+Organism	Population
+Carrot		26555
+Rabbit		5872
+Fox		2294
+
+Oct 28, 2024 8:07:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	72952	9949231
+Organism	Population
+Carrot		20075
+Rabbit		4801
+Fox		2118
+
+Oct 28, 2024 8:07:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	475738	9959617
+Organism	Population
+Carrot		14793
+Rabbit		3636
+Fox		1896
+
+Oct 28, 2024 8:07:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	317159	9969053
+Organism	Population
+Carrot		15779
+Rabbit		2766
+Fox		1640
+
+Oct 28, 2024 8:07:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	211440	9971842
+Organism	Population
+Carrot		16831
+Rabbit		2663
+Fox		1388
+
+Oct 28, 2024 8:07:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	541866	9971905
+Organism	Population
+Carrot		18237
+Rabbit		2841
+Fox		1201
+
+Oct 28, 2024 8:07:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	361244	9970525
+Organism	Population
+Carrot		19849
+Rabbit		3030
+Fox		1086
+
+Oct 28, 2024 8:07:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	240830	9968361
+Organism	Population
+Carrot		21728
+Rabbit		3232
+Fox		1027
+
+Oct 28, 2024 8:07:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	582451	9965616
+Organism	Population
+Carrot		23955
+Rabbit		3447
+Fox		1011
+
+Oct 28, 2024 8:07:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	817609	9962291
+Organism	Population
+Carrot		26643
+Rabbit		3676
+Fox		1025
+
+Oct 28, 2024 8:07:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	975214	9958273
+Organism	Population
+Carrot		29948
+Rabbit		3921
+Fox		1060
+
+Oct 28, 2024 8:07:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	650143	9953361
+Organism	Population
+Carrot		34085
+Rabbit		4182
+Fox		1111
+
+Oct 28, 2024 8:07:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	433429	9947259
+Organism	Population
+Carrot		39355
+Rabbit		4460
+Fox		1173
+
+Oct 28, 2024 8:07:59 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	720579	9939548
+Organism	Population
+Carrot		46136
+Rabbit		4758
+Fox		1243
+
+Oct 28, 2024 8:08:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	480386	9929683
+Organism	Population
+Carrot		55074
+Rabbit		5075
+Fox		1322
+
+Oct 28, 2024 8:08:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	730927	9916799
+Organism	Population
+Carrot		61908
+Rabbit		5414
+Fox		1407
+
+Oct 28, 2024 8:08:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	487285	9904811
+Organism	Population
+Carrot		75843
+Rabbit		5775
+Fox		1499
+
+Oct 28, 2024 8:08:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	324857	9886081
+Organism	Population
+Carrot		79141
+Rabbit		6159
+Fox		1598
+
+Oct 28, 2024 8:08:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	632301	9875291
+Organism	Population
+Carrot		73840
+Rabbit		6569
+Fox		1704
+
+Oct 28, 2024 8:08:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	421534	9876276
+Organism	Population
+Carrot		82929
+Rabbit		7007
+Fox		1818
+
+Oct 28, 2024 8:08:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	683142	9867581
+Organism	Population
+Carrot		79786
+Rabbit		7474
+Fox		1939
+
+Oct 28, 2024 8:08:01 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	455428	9867246
+Organism	Population
+Carrot		88852
+Rabbit		7972
+Fox		2068
+
+Oct 29, 2024 12:29:57 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Starting automatic simulation with ecosystem details: 
+Ecosystem: Ecosystem
+EnvironmentCondition:
+Temperature: 25.0
+Humidity: 50.0
+FertileSoilAmount: 9977725
+WaterAvailability: 781959
+DailyPrecipitation: 200000
+OrganicMatterAccumulation: 22275
+Organisms:
+	Organism: Carrot 'plant'
+FoodRequirements: 1
+Population: 20441
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 25.0
+	Organism: Rabbit 'herbivore'
+FoodRequirements: 2
+Population: 578
+WaterRequirements: 1
+OptimalHumidity: 30.0
+OptimalTemperature: 20.0
+	Organism: Fox 'carnivore'
+FoodRequirements: 2
+Population: 154
+WaterRequirements: 1
+OptimalHumidity: 50.0
+OptimalTemperature: 15.0
+Oct 29, 2024 12:29:58 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	521306	9970649
+Organism	Population
+Carrot		27461
+Rabbit		617
+Fox		162
+
+Oct 29, 2024 12:30:00 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	767229	9960798
+Organism	Population
+Carrot		37211
+Rabbit		658
+Fox		171
+
+Oct 29, 2024 12:30:02 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	511486	9947108
+Organism	Population
+Carrot		50779
+Rabbit		702
+Fox		182
+
+Oct 29, 2024 12:30:04 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	756297	9928064
+Organism	Population
+Carrot		67939
+Rabbit		748
+Fox		194
+
+Oct 29, 2024 12:30:06 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	924962	9903286
+Organism	Population
+Carrot		93618
+Rabbit		798
+Fox		206
+
+Oct 29, 2024 12:30:08 PM com.cabachok.utils.CustomLogger logToFile
+INFO: Ecosystem current state:
+Temp	Humid	Water	Soil
+25.0	50.0	1039686	9867696
+Organism	Population
+Carrot		125544
+Rabbit		851
+Fox		220
+
