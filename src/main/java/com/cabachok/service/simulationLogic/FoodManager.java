@@ -109,9 +109,7 @@ public class FoodManager {
 
                 double foodImpact = GrowthFactoryCalculator.resourceImpact(deficitRatio, foodInfluenceFactor);
 
-                System.out.println("Food Impact: " + foodImpact + " for organism" + organism.getName());
                 organism.setGrowthDecayFactor(organism.getGrowthDecayFactor() * foodImpact);
-
             }
         }
 

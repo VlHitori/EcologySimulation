@@ -25,9 +25,6 @@ public class ConditionManager {
             double humidityImpact = GrowthFactoryCalculator.calculateHumidityImpact(humidityDifference, humidityInfluenceFactor);
             double temperatureImpact = GrowthFactoryCalculator.calculateTemperatureImpact(temperatureDifference, temperatureInfluenceFactor);
 
-            System.out.println("Humidity impact: " + humidityImpact + " for organism: " + organism.getName());
-            System.out.println("Temperature impact: " + temperatureImpact + " for organism: " + organism.getName());
-
             organism.setGrowthDecayFactor(organism.getGrowthDecayFactor() * humidityImpact * temperatureImpact);
         }
     }

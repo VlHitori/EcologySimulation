@@ -58,8 +58,6 @@ public class WaterManager {
             double deficitRatio = waterPerOrganism / requirement;
             double waterImpact = GrowthFactoryCalculator.resourceImpact(deficitRatio, waterInfluenceFactor);
 
-            System.out.println("Water impact: " + waterImpact + " For organism: " + organism.getName());
-
             organism.setGrowthDecayFactor(organism.getGrowthDecayFactor() * waterImpact);
         }
 
